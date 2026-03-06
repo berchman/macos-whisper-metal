@@ -30,3 +30,7 @@ requirements.txt
 /com.berchman.whisper.publish.plist
 /working.txt
 local_spoken_publishing_flow.svg
+
+# Audio exports
+_01_Final-Files-Output/*.wav
+*.wav
