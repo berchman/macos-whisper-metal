@@ -1,30 +1,24 @@
 #!/usr/bin/env python3
 """
-transcribe_audio.py (Beta 0.6)
+transcribe_audio.py (Beta 0.5)
 
-Local transcription pipeline for macOS (Apple Silicon):
+Transcribe an audio/video file locally on macOS (Apple Silicon) using:
+- ffmpeg for decode/resample -> 16kHz mono WAV
+- whisper.cpp via Homebrew `whisper-cli` with Metal acceleration
 
-- Watches/runner calls this script for a single file at a time.
-- Uses ffmpeg to convert non-wav inputs to 16kHz mono PCM WAV (temp file)
-- Uses whisper.cpp via Homebrew `whisper-cli` with Metal acceleration
-- Writes: <output_dir>/<stem>.txt
-- Writes JSON sidecar (if supported) to: <output_dir>/_sidecars/<stem>.json
-  (keeps the transcript folder clean: TXT only at top level)
+Outputs:
+- <output_dir>/<stem>.txt
 
 Formatting goals:
-- No inline timestamps in TXT (for now)
-- Better paragraphing using JSON segments when available (pause gap >= 1.5s)
+- No timestamps (for now)
+- Conservative paragraph breaks based on pause gaps >= 1.5s (when JSON segments are available)
 - Append a footer block containing:
-  - word count
-  - transcribed-with tagline + repo link
-  - wrapped in markers so WP publisher can strip it by default
+  - word count (also useful inside WP)
+  - a short "transcribed with" tagline + link to repo
+  - Footer is wrapped in markers so the WordPress publisher can strip it by default.
 
 Idempotency:
-- State file in _LOGS prevents reprocessing identical inputs/settings
-- Footer is checksum-safe (won’t double-append)
-
-NOTE:
-- If input is a .wav, we do NOT run ffmpeg conversion by default (avoids overwrite issues).
+- Writes a state file in _LOGS to avoid reprocessing identical inputs.
 """
 
 from __future__ import annotations
@@ -32,11 +26,9 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-import re
 import shutil
 import subprocess
 import sys
-import textwrap
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -108,7 +100,6 @@ def convert_to_wav(ffmpeg_bin: str, in_path: Path, wav_path: Path) -> None:
         "-c:a", "pcm_s16le",
         str(wav_path),
     ]
-    # Capture output so launchd logs don’t explode; still errors out on non-zero.
     subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 
@@ -121,27 +112,13 @@ def run_whisper(
     beam_size: int,
     best_of: int,
     language: str,
-    want_json: bool = True,
+    try_json: bool = True,
 ) -> Tuple[Optional[Path], Path]:
     """
-    Runs whisper-cli.
-
-    Always generates TXT: out_prefix.txt
-
-    If want_json and binary supports it, also generates JSON:
-      out_prefix.json
-
-    Returns (json_path_or_None, txt_path)
+    Runs whisper-cli. Produces a .txt always, and tries to produce .json when supported.
+    Returns (json_path_or_None, txt_path).
     """
-    txt_path = out_prefix.with_suffix(".txt")
-
-    json_dir = out_prefix.parent / "json_files"
-    json_dir.mkdir(parents=True, exist_ok=True)
-
-    json_prefix = json_dir / out_prefix.name
-    json_path = json_prefix.with_suffix(".json")
-
-    cmd_txt = [
+    cmd = [
         whisper_bin,
         "-m", str(model_path),
         "-f", str(wav_path),
@@ -154,82 +131,44 @@ def run_whisper(
         "--output-file", str(out_prefix),
     ]
 
-    cmd_json = [
-        whisper_bin,
-        "-m", str(model_path),
-        "-f", str(wav_path),
-        "--language", language,
-        "--output-json",
-        "--threads", str(threads),
-        "--beam-size", str(beam_size),
-        "--best-of", str(best_of),
-        "--output-file", str(json_prefix),
-    ]
+    # Try JSON if the binary supports it.
+    json_path = out_prefix.with_suffix(".json")
+    txt_path = out_prefix.with_suffix(".txt")
 
-    # Try JSON first (so we can paragraph better), but don’t die if unsupported.
-    json_ok = False
-    if want_json:
+    if try_json:
+        cmd_json = cmd.copy()
+        cmd_json.insert(cmd_json.index("--output-txt"), "--output-json")
         try:
-            subprocess.run(cmd_json, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-            json_ok = json_path.exists()
+            subprocess.run(cmd_json, check=True)
+            if json_path.exists() and txt_path.exists():
+                return json_path, txt_path
         except subprocess.CalledProcessError:
-            json_ok = False
+            # Fall back to txt-only
+            pass
 
-    # Always generate TXT (this is the contract)
-    subprocess.run(cmd_txt, check=True)
-
-    return (json_path if json_ok else None), txt_path
-
-
-def parse_timestamp_seconds(value: Any) -> Optional[float]:
-    """
-    Accept numeric seconds or whisper.cpp timestamp strings like 00:00:11,000.
-    """
-    if isinstance(value, (int, float)):
-        return float(value)
-
-    if not isinstance(value, str):
-        return None
-
-    value = value.strip()
-    if not value:
-        return None
-
-    try:
-        return float(value)
-    except ValueError:
-        pass
-
-    match = re.fullmatch(r"(?:(\d+):)?(\d{2}):(\d{2})(?:[,.](\d{1,3}))?", value)
-    if not match:
-        return None
-
-    hours = int(match.group(1) or 0)
-    minutes = int(match.group(2))
-    seconds = int(match.group(3))
-    millis_raw = match.group(4) or "0"
-    millis = int(millis_raw.ljust(3, "0")[:3])
-    return (hours * 3600) + (minutes * 60) + seconds + (millis / 1000.0)
+    subprocess.run(cmd, check=True)
+    return (json_path if json_path.exists() else None), txt_path
 
 
 def parse_whisper_json(json_path: Path) -> List[Dict[str, Any]]:
     """
     Expect whisper.cpp-style json containing segments with start/end and text.
-    Tolerates a few shapes.
+    We'll tolerate a few shapes.
     """
     data = json.loads(json_path.read_text(encoding="utf-8", errors="ignore"))
 
-    segments: Any = []
+    # Common: {"transcription":[{"timestamps":{"from":0.0,"to":1.2},"text":"..."}]}
+    # Or: {"segments":[{"t0":..., "t1":..., "text":...}, ...]}
+    segments = []
     if isinstance(data, dict):
         if "segments" in data and isinstance(data["segments"], list):
             segments = data["segments"]
         elif "transcription" in data and isinstance(data["transcription"], list):
             segments = data["transcription"]
-
     if not isinstance(segments, list):
         return []
 
-    out: List[Dict[str, Any]] = []
+    out = []
     for s in segments:
         if not isinstance(s, dict):
             continue
@@ -238,31 +177,25 @@ def parse_whisper_json(json_path: Path) -> List[Dict[str, Any]]:
         if not text:
             continue
 
-        start: Optional[float] = None
-        end: Optional[float] = None
-
+        # timing variants
+        start = None
+        end = None
         if "t0" in s and "t1" in s:
-            start = parse_timestamp_seconds(s["t0"])
-            end = parse_timestamp_seconds(s["t1"])
-            # heuristic: if large, likely centiseconds
-            if start is not None and end is not None and (start > 1000 or end > 1000):
+            # t0/t1 often in 10ms units. If huge, convert.
+            start = float(s["t0"])
+            end = float(s["t1"])
+            # heuristic: if values are > 1000, assume centiseconds
+            if start > 1000 or end > 1000:
                 start /= 100.0
                 end /= 100.0
         elif "start" in s and "end" in s:
-            start = parse_timestamp_seconds(s["start"])
-            end = parse_timestamp_seconds(s["end"])
+            start = float(s["start"])
+            end = float(s["end"])
         elif "timestamps" in s and isinstance(s["timestamps"], dict):
-            start = parse_timestamp_seconds(s["timestamps"].get("from"))
-            end = parse_timestamp_seconds(s["timestamps"].get("to"))
-        elif "offsets" in s and isinstance(s["offsets"], dict):
-            start_offset = parse_timestamp_seconds(s["offsets"].get("from"))
-            end_offset = parse_timestamp_seconds(s["offsets"].get("to"))
-            if start_offset is not None and end_offset is not None:
-                start = start_offset / 1000.0
-                end = end_offset / 1000.0
+            start = float(s["timestamps"].get("from", 0.0))
+            end = float(s["timestamps"].get("to", 0.0))
 
         out.append({"start": start, "end": end, "text": text})
-
     return out
 
 
@@ -279,7 +212,7 @@ def build_paragraph_text(segments: List[Dict[str, Any]]) -> str:
     prev_end: Optional[float] = None
 
     for seg in segments:
-        txt = seg.get("text", "").strip()
+        txt = seg["text"].strip()
         if not txt:
             continue
 
@@ -299,87 +232,21 @@ def build_paragraph_text(segments: List[Dict[str, Any]]) -> str:
     if cur:
         paras.append(" ".join(cur).strip())
 
-    out = "\n\n".join(p for p in paras if p).replace("  ", " ").strip()
+    # Gentle cleanup
+    out = "\n\n".join(p for p in paras if p)
+    out = out.replace("  ", " ").strip()
     return out
 
-def format_srt_timestamp(seconds: float) -> str:
-    ms = int(seconds * 1000)
-    h = ms // 3600000
-    m = (ms % 3600000) // 60000
-    s = (ms % 60000) // 1000
-    ms = ms % 1000
-    return f"{h:02}:{m:02}:{s:02},{ms:03}"
-
-
-def wrap_text_srt(text: str, width: int = 35) -> List[str]:
-    return textwrap.wrap(text, width=width)
-
-
-def generate_srt_from_segments(segments: List[Dict[str, Any]]) -> str:
-    entries = []
-    buffer = []
-    start_time = None
-    end_time = None
-
-    def flush():
-        nonlocal buffer, start_time, end_time
-        if not buffer:
-            return
-        text = " ".join(buffer).strip()
-        lines = wrap_text_srt(text)
-
-        if lines:
-            entries.append({
-                "start": start_time,
-                "end": end_time,
-                "lines": lines
-            })
-
-        buffer = []
-        start_time = None
-        end_time = None
-
-    for seg in segments:
-        txt = seg["text"].strip()
-        if not txt:
-            continue
-
-        seg_start = seg.get("start")
-        seg_end = seg.get("end")
-        if not isinstance(seg_start, (int, float)) or not isinstance(seg_end, (int, float)):
-            continue
-
-        if start_time is None:
-            start_time = float(seg_start)
-
-        buffer.append(txt)
-        end_time = float(seg_end)
 
         # flush if too long
         if len(" ".join(buffer)) > 70:
             flush()
 
-    flush()
-
-    # build final SRT string
-    srt_lines = []
-    for i, e in enumerate(entries, start=1):
-        srt_lines.append(str(i))
-        srt_lines.append(
-            f"{format_srt_timestamp(e['start'])} --> {format_srt_timestamp(e['end'])}"
-        )
-        srt_lines.extend(e["lines"])
-        srt_lines.append("")  # blank line
-
-    return "\n".join(srt_lines)
-
-def word_count(text: str) -> int:
-    return len(re.findall(r"\b[\w']+\b", text))
-
 
 def strip_existing_footer(text: str) -> str:
     if FOOTER_START in text and FOOTER_END in text:
-        return text.split(FOOTER_START, 1)[0].rstrip()
+        pre = text.split(FOOTER_START, 1)[0].rstrip()
+        return pre
     return text.rstrip()
 
 
@@ -389,7 +256,7 @@ def write_transcript(output_path: Path, body: str, wc: int) -> None:
     footer_lines = [
         "",
         FOOTER_START,
-        f"Word count: {wc}",
+        f"<h6>Word count: {wc}</h6>",
         f"Transcribed locally with whisper.cpp (Metal). More info: {REPO_URL}",
         FOOTER_END,
         "",
@@ -398,49 +265,26 @@ def write_transcript(output_path: Path, body: str, wc: int) -> None:
     output_path.write_text(final, encoding="utf-8")
 
 
-def move_json_sidecar(json_path: Path, out_dir: Path) -> Path:
-    """
-    Move JSON to <out_dir>/_sidecars/<name>.json
-    """
-    sidecar_dir = out_dir / "_sidecars"
-    sidecar_dir.mkdir(parents=True, exist_ok=True)
-    dest = sidecar_dir / json_path.name
-    try:
-        if dest.exists():
-            dest.unlink()
-        json_path.replace(dest)
-    except Exception:
-        # If move fails, just keep it where it is; caller can still parse it.
-        return json_path
-    return dest
-
-
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("audio_file", help="Path to input audio/video (mp3/m4a/aac/mov/wav/...)")
+    ap.add_argument("audio_file", help="Path to input audio/video (mp3/m4a/aac/mov/...)")
     ap.add_argument("output_dir", help="Directory to write transcripts")
-    ap.add_argument(
-        "--model",
-        default=str(Path.home() / "_00_GIT_MASTER" / "00_TAWK2TEXT" / "_models" / "ggml-medium.bin"),
-    )
+    ap.add_argument("--model", default=str(Path.home() / "_00_GIT_MASTER/transcription-to-blog" / "_MODELS" / "ggml-medium.bin"))
     ap.add_argument("--language", default="en")
     ap.add_argument("--threads", type=int, default=8)
     ap.add_argument("--beam-size", type=int, default=5)
     ap.add_argument("--best-of", type=int, default=5)
-    ap.add_argument("--no-json", action="store_true", help="Disable JSON generation (txt only).")
-    ap.add_argument("--srt", action="store_true", help="Generate SRT subtitles")
     args = ap.parse_args()
 
     audio_path = Path(args.audio_file).expanduser().resolve()
     out_dir = Path(args.output_dir).expanduser().resolve()
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    
     script_dir = Path(__file__).resolve().parent
-    log_dir = script_dir / "_logs"
+    log_dir = script_dir / "_LOGS"
     log_file = log_dir / "transcribe.log"
     state_file = log_dir / "transcribe_state.json"
-    enable_json = True  # keep segments for formatting + future features
+
     model_path = Path(args.model).expanduser().resolve()
 
     if not audio_path.exists():
@@ -450,9 +294,9 @@ def main() -> None:
 
     ffmpeg_bin, whisper_bin = resolve_bins()
 
-    # Checksum-based skip (prevents repeated processing)
+    # Checksum-based skip
     audio_sha = sha256_file(audio_path)
-    settings_key = f"model={model_path.name}|lang={args.language}|threads={args.threads}|beam={args.beam_size}|best={args.best_of}|json={not args.no_json}"
+    settings_key = f"model={model_path.name}|lang={args.language}|threads={args.threads}|beam={args.beam_size}|best={args.best_of}"
     run_sha = hashlib.sha256(f"{audio_sha}|{settings_key}".encode("utf-8")).hexdigest()
 
     state = load_state(state_file)
@@ -463,35 +307,20 @@ def main() -> None:
         return
 
     out_txt = out_dir / f"{audio_path.stem}.txt"
+
+    # Convert to wav in same folder as input (temporary)
+    wav_path = audio_path.with_suffix(".wav")
+    _log(log_file, f"Converting to wav: {audio_path.name} -> {wav_path.name}")
+    try:
+        convert_to_wav(ffmpeg_bin, audio_path, wav_path)
+    except subprocess.CalledProcessError as e:
+        _log(log_file, f"ERROR converting with ffmpeg: {e}")
+        raise
+
     out_prefix = out_dir / audio_path.stem
-    json_path = None
-    txt_path = None
-    
-    # Prepare WAV path
-    created_temp_wav = False
-    wav_path = audio_path
 
-    temp_wav_created = False
-
-    # Decide final WAV path
-    if audio_path.suffix.lower() == ".wav":
-        wav_path = audio_path
-    else:
-        # Convert into FINAL_DIR (or a dedicated temp dir if you prefer)
-        wav_path = (script_dir / "_wav_files" / f"{audio_path.stem}.wav").resolve()
-        wav_path.parent.mkdir(parents=True, exist_ok=True)
-
-        try:
-            _log(log_file, f"Converting to wav: {audio_path.name} -> {wav_path.name}")
-            convert_to_wav(ffmpeg_bin, audio_path, wav_path)
-            temp_wav_created = True
-        except subprocess.CalledProcessError as e:
-            _log(log_file, f"ERROR converting with ffmpeg: {e}")
-            raise
-
-    # Run whisper
     _log(log_file, "Backend: whisper-cpp (Homebrew) | Metal GPU (Apple Silicon)")
-    json_path: Optional[Path] = None
+    json_path = None
     try:
         json_path, txt_path = run_whisper(
             whisper_bin=whisper_bin,
@@ -502,49 +331,30 @@ def main() -> None:
             beam_size=args.beam_size,
             best_of=args.best_of,
             language=args.language,
-            want_json=(not args.no_json),
+            try_json=True,
         )
-    except subprocess.CalledProcessError as e:
-        _log(log_file, f"ERROR running whisper-cli: {e}")
-        raise
     finally:
-        # Delete temp wav ONLY if we created it (and regardless of whisper success)
-        if temp_wav_created:
-            try:
-                wav_path.unlink(missing_ok=True)
-            except Exception:
-                pass
-            
-            
-    # If JSON exists, move it into sidecars folder
-    if json_path and json_path.exists():
-        json_path = move_json_sidecar(json_path, out_dir)
+        # Always delete temp wav
+        try:
+            if wav_path.exists():
+                wav_path.unlink()
+        except Exception:
+            pass
 
-    # Build body: JSON paragraphs if possible, else TXT fallback
+    # Prefer JSON-based formatting
     body = ""
-    segs = []
-
     if json_path and json_path.exists():
         segs = parse_whisper_json(json_path)
         body = build_paragraph_text(segs)
-
-        if args.srt and segs:
-            srt_output = generate_srt_from_segments(segs)
-            srt_path = out_prefix.with_suffix(".srt")
-            srt_path.write_text(srt_output, encoding="utf-8")
-
-    # Fallback if JSON failed or produced empty body
     if not body:
+        # Fallback: use txt output from whisper-cli as-is.
         txt_fallback = out_prefix.with_suffix(".txt")
-        if txt_fallback.exists():
-            body = txt_fallback.read_text(encoding="utf-8", errors="ignore").strip()
-        else:
-            body = ""
+        body = txt_fallback.read_text(encoding="utf-8", errors="ignore").strip() if txt_fallback.exists() else ""
 
     wc = word_count(body)
     write_transcript(out_txt, body, wc)
 
-    # Update state (idempotency)
+    # Update state
     state["runs"][str(audio_path)] = {
         "run_sha": run_sha,
         "audio_sha": audio_sha,
