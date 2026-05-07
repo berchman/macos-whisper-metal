@@ -238,9 +238,9 @@ def build_paragraph_text(segments: List[Dict[str, Any]]) -> str:
     return out
 
 
-        # flush if too long
-        if len(" ".join(buffer)) > 70:
-            flush()
+def word_count(text: str) -> int:
+    words = [word for word in text.replace("\n", " ").split(" ") if word.strip()]
+    return len(words)
 
 
 def strip_existing_footer(text: str) -> str:
