@@ -46,6 +46,7 @@ while true; do
     "$BASE_DIR/.venv/bin/python" "$BASE_DIR/transcribe_audio.py" \
       "$PROCESSED_DIR/$filename" \
       "$TRANSCRIPT_DIR" \
+      --clean-fillers \
       2>&1 | tee -a "$LOG_FILE"
 
     echo "Finished transcription for $filename" | tee -a "$LOG_FILE"

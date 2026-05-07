@@ -8,6 +8,7 @@ A local, subscription-free audio → transcript (and optional WordPress draft) p
 - **Broader input support**: handles `.mp3`, `.m4a/.aac`, `.mov` (anything `ffmpeg` can decode).
 - **Footer + word count** appended to transcript files, with a **publishing-safe footer block** that WordPress ignores by default.
 - **Checksum-based skip** so reprocessing the same audio won't re-run or double-append.
+- **Optional filler cleanup**: `--clean-fillers` writes `.cleaned.wav` and `.fillers.json`.
 
 ## Requirements (fresh machine friendly)
 1. macOS 13+ (Ventura or newer recommended)
@@ -36,6 +37,13 @@ Download a whisper.cpp model (example: medium) and put it here:
 ```bash
 python3 ./transcribe_audio.py ./_01_Processed/example.m4a ./_02_Transcripts
 ```
+
+## Clean filler audio
+```bash
+python3 ./transcribe_audio.py ./_01_Processed/example.m4a ./_02_Transcripts --clean-fillers
+```
+
+This mutes detected filler words such as `um`, `uh`, `ah`, `er`, and `erm` with 75ms padding, preserving the original duration.
 
 ## Notes
 - Transcription uses `whisper-cli` from the Homebrew `whisper-cpp` package.

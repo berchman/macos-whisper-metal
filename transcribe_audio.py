@@ -26,6 +26,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -34,6 +35,8 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 PAUSE_PARAGRAPH_SECONDS = 1.5
+DEFAULT_FILLER_PADDING_MS = 75
+FILLER_WORDS = {"um", "umm", "uh", "uhh", "ah", "ahh", "er", "erm"}
 
 FOOTER_START = "[[TRANSCRIBE_FOOTER_START]]"
 FOOTER_END   = "[[TRANSCRIBE_FOOTER_END]]"
@@ -103,6 +106,31 @@ def convert_to_wav(ffmpeg_bin: str, in_path: Path, wav_path: Path) -> None:
     subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 
+def write_wav_with_silenced_intervals(
+    ffmpeg_bin: str,
+    in_path: Path,
+    out_path: Path,
+    intervals: List[Dict[str, Any]],
+) -> None:
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    cmd = [
+        ffmpeg_bin, "-y",
+        "-i", str(in_path),
+        "-vn",
+        "-ac", "1",
+        "-ar", "16000",
+    ]
+    if intervals:
+        filters = []
+        for item in intervals:
+            start = float(item["start"])
+            end = float(item["end"])
+            filters.append(f"volume=enable='between(t\\,{start:.3f}\\,{end:.3f})':volume=0")
+        cmd.extend(["-af", ",".join(filters)])
+    cmd.extend(["-c:a", "pcm_s16le", str(out_path)])
+    subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+
 def run_whisper(
     whisper_bin: str,
     model_path: Path,
@@ -113,6 +141,7 @@ def run_whisper(
     best_of: int,
     language: str,
     try_json: bool = True,
+    full_json: bool = False,
 ) -> Tuple[Optional[Path], Path]:
     """
     Runs whisper-cli. Produces a .txt always, and tries to produce .json when supported.
@@ -138,6 +167,8 @@ def run_whisper(
     if try_json:
         cmd_json = cmd.copy()
         cmd_json.insert(cmd_json.index("--output-txt"), "--output-json")
+        if full_json:
+            cmd_json.insert(cmd_json.index("--output-txt"), "--output-json-full")
         try:
             subprocess.run(cmd_json, check=True)
             if json_path.exists() and txt_path.exists():
@@ -197,6 +228,117 @@ def parse_whisper_json(json_path: Path) -> List[Dict[str, Any]]:
 
         out.append({"start": start, "end": end, "text": text})
     return out
+
+
+def normalize_word(text: str) -> str:
+    return re.sub(r"[^a-z]", "", text.lower())
+
+
+def is_filler_word(text: str) -> bool:
+    word = normalize_word(text)
+    if word in FILLER_WORDS:
+        return True
+    return bool(re.fullmatch(r"(u+h+|u+m+|a+h+|e+r+m*)", word))
+
+
+def timestamp_to_seconds(value: Any) -> Optional[float]:
+    if value is None:
+        return None
+    if isinstance(value, (int, float)):
+        val = float(value)
+        if val > 10000:
+            return val / 1000.0
+        if val > 1000:
+            return val / 100.0
+        return val
+    text = str(value).strip()
+    if not text:
+        return None
+    if ":" not in text:
+        try:
+            return timestamp_to_seconds(float(text))
+        except ValueError:
+            return None
+    parts = text.replace(",", ".").split(":")
+    try:
+        seconds = float(parts[-1])
+        minutes = int(parts[-2]) if len(parts) >= 2 else 0
+        hours = int(parts[-3]) if len(parts) >= 3 else 0
+        return hours * 3600 + minutes * 60 + seconds
+    except ValueError:
+        return None
+
+
+def item_times(item: Dict[str, Any]) -> Tuple[Optional[float], Optional[float]]:
+    if "start" in item and "end" in item:
+        return timestamp_to_seconds(item["start"]), timestamp_to_seconds(item["end"])
+    if "from" in item and "to" in item:
+        return timestamp_to_seconds(item["from"]), timestamp_to_seconds(item["to"])
+    if "t0" in item and "t1" in item:
+        return timestamp_to_seconds(item["t0"]), timestamp_to_seconds(item["t1"])
+    ts = item.get("timestamps")
+    if isinstance(ts, dict):
+        return timestamp_to_seconds(ts.get("from")), timestamp_to_seconds(ts.get("to"))
+    return None, None
+
+
+def extract_filler_intervals(json_path: Path, padding_ms: int) -> List[Dict[str, Any]]:
+    data = json.loads(json_path.read_text(encoding="utf-8", errors="ignore"))
+    segments = []
+    if isinstance(data, dict):
+        if isinstance(data.get("segments"), list):
+            segments = data["segments"]
+        elif isinstance(data.get("transcription"), list):
+            segments = data["transcription"]
+
+    raw: List[Dict[str, Any]] = []
+    pad = max(0.0, padding_ms / 1000.0)
+
+    for seg in segments:
+        if not isinstance(seg, dict):
+            continue
+        words = seg.get("words")
+        if isinstance(words, list):
+            for word in words:
+                if not isinstance(word, dict):
+                    continue
+                text = str(word.get("word", word.get("text", ""))).strip()
+                start, end = item_times(word)
+                if text and is_filler_word(text) and start is not None and end is not None and end > start:
+                    raw.append({"word": text, "start": max(0.0, start - pad), "end": end + pad, "source": "word"})
+        else:
+            text = str(seg.get("text", "")).strip()
+            start, end = item_times(seg)
+            if text and is_filler_word(text) and start is not None and end is not None and end > start:
+                raw.append({"word": text, "start": max(0.0, start - pad), "end": end + pad, "source": "segment"})
+
+    raw.sort(key=lambda item: (float(item["start"]), float(item["end"])))
+    merged: List[Dict[str, Any]] = []
+    for item in raw:
+        if not merged or float(item["start"]) > float(merged[-1]["end"]):
+            merged.append(dict(item))
+            continue
+        merged[-1]["end"] = max(float(merged[-1]["end"]), float(item["end"]))
+        merged[-1]["word"] = f"{merged[-1]['word']} {item['word']}"
+    return merged
+
+
+def write_filler_audit(
+    audit_path: Path,
+    audio_path: Path,
+    cleaned_path: Path,
+    padding_ms: int,
+    intervals: List[Dict[str, Any]],
+) -> None:
+    audit = {
+        "source_audio": str(audio_path),
+        "cleaned_audio": str(cleaned_path),
+        "padding_ms": padding_ms,
+        "filler_words": sorted(FILLER_WORDS),
+        "count": len(intervals),
+        "intervals": intervals,
+    }
+    audit_path.write_text(json.dumps(audit, indent=2, sort_keys=True), encoding="utf-8")
 
 
 def build_paragraph_text(segments: List[Dict[str, Any]]) -> str:
@@ -274,6 +416,8 @@ def main() -> None:
     ap.add_argument("--threads", type=int, default=8)
     ap.add_argument("--beam-size", type=int, default=5)
     ap.add_argument("--best-of", type=int, default=5)
+    ap.add_argument("--clean-fillers", action="store_true", help="Write a .cleaned.wav with filler words muted.")
+    ap.add_argument("--filler-padding-ms", type=int, default=DEFAULT_FILLER_PADDING_MS)
     args = ap.parse_args()
 
     audio_path = Path(args.audio_file).expanduser().resolve()
@@ -296,7 +440,11 @@ def main() -> None:
 
     # Checksum-based skip
     audio_sha = sha256_file(audio_path)
-    settings_key = f"model={model_path.name}|lang={args.language}|threads={args.threads}|beam={args.beam_size}|best={args.best_of}"
+    settings_key = (
+        f"model={model_path.name}|lang={args.language}|threads={args.threads}|"
+        f"beam={args.beam_size}|best={args.best_of}|clean_fillers={args.clean_fillers}|"
+        f"filler_padding_ms={args.filler_padding_ms}"
+    )
     run_sha = hashlib.sha256(f"{audio_sha}|{settings_key}".encode("utf-8")).hexdigest()
 
     state = load_state(state_file)
@@ -332,6 +480,7 @@ def main() -> None:
             best_of=args.best_of,
             language=args.language,
             try_json=True,
+            full_json=args.clean_fillers,
         )
     finally:
         # Always delete temp wav
@@ -351,6 +500,18 @@ def main() -> None:
         txt_fallback = out_prefix.with_suffix(".txt")
         body = txt_fallback.read_text(encoding="utf-8", errors="ignore").strip() if txt_fallback.exists() else ""
 
+    cleaned_audio = None
+    filler_audit = None
+    if args.clean_fillers and json_path and json_path.exists():
+        cleaned_audio = out_dir / f"{audio_path.stem}.cleaned.wav"
+        filler_audit = out_dir / f"{audio_path.stem}.fillers.json"
+        intervals = extract_filler_intervals(json_path, args.filler_padding_ms)
+        write_wav_with_silenced_intervals(ffmpeg_bin, audio_path, cleaned_audio, intervals)
+        write_filler_audit(filler_audit, audio_path, cleaned_audio, args.filler_padding_ms, intervals)
+        _log(log_file, f"Cleaned audio written: {cleaned_audio} ({len(intervals)} muted interval(s))")
+    elif args.clean_fillers:
+        _log(log_file, "Clean fillers skipped: no JSON timing file available")
+
     wc = word_count(body)
     write_transcript(out_txt, body, wc)
 
@@ -360,6 +521,8 @@ def main() -> None:
         "audio_sha": audio_sha,
         "settings": settings_key,
         "output": str(out_txt),
+        "cleaned_audio": str(cleaned_audio) if cleaned_audio else None,
+        "filler_audit": str(filler_audit) if filler_audit else None,
         "updated_at": datetime.now().isoformat(timespec="seconds"),
     }
     save_state(state_file, state)
