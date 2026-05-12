@@ -1,0 +1,296 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/bertm/_00_GIT_MASTER/00_TAWK2TEXT/_models/ggml-medium.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:22,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 22000
+			},
+			"text": " Hey dude. Sorry to send you this. I had the best day that I've had in at least half a year."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,000",
+				"to": "00:00:44,000"
+			},
+			"offsets": {
+				"from": 22000,
+				"to": 44000
+			},
+			"text": " And I went over to help Don sell his knee scooter. The one you bend your knee and your leg is broken."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:44,000",
+				"to": "00:01:06,000"
+			},
+			"offsets": {
+				"from": 44000,
+				"to": 66000
+			},
+			"text": " So I went over and did that like Don wanted me to. And after that I went to the supermarket."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,000",
+				"to": "00:01:16,000"
+			},
+			"offsets": {
+				"from": 66000,
+				"to": 76000
+			},
+			"text": " And I walked around because I couldn't figure out what I wanted. So it took a little time."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:16,000",
+				"to": "00:01:26,000"
+			},
+			"offsets": {
+				"from": 76000,
+				"to": 86000
+			},
+			"text": " And then I stopped at another store and I got stuck there for a little while walking around."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:26,000",
+				"to": "00:01:38,000"
+			},
+			"offsets": {
+				"from": 86000,
+				"to": 98000
+			},
+			"text": " I come back here to your mom's house and her car is open in the garage and the car is not there."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:38,000",
+				"to": "00:01:48,000"
+			},
+			"offsets": {
+				"from": 98000,
+				"to": 108000
+			},
+			"text": " I'm like that's weird. I'm thinking she didn't have to go to a church thing or something with her friends"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:48,000",
+				"to": "00:02:00,000"
+			},
+			"offsets": {
+				"from": 108000,
+				"to": 120000
+			},
+			"text": " or with the women at the church in her rosary society. And then I'm thinking maybe it's an emergency."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:00,000",
+				"to": "00:02:22,000"
+			},
+			"offsets": {
+				"from": 120000,
+				"to": 142000
+			},
+			"text": " I don't know. So anyway, I come in the house, see Scottie, pet Scottie, come downstairs, just like unpacking my stuff."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:22,000",
+				"to": "00:02:35,000"
+			},
+			"offsets": {
+				"from": 142000,
+				"to": 155000
+			},
+			"text": " I'm like what? And then she screamed, there are strangers at Tree and Don's house."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:35,000",
+				"to": "00:02:48,000"
+			},
+			"offsets": {
+				"from": 155000,
+				"to": 168000
+			},
+			"text": " And I drove over there because the neighbors were calling Tree and saying there's this weird guy walking in and out of their house"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:48,000",
+				"to": "00:03:00,000"
+			},
+			"offsets": {
+				"from": 168000,
+				"to": 180000
+			},
+			"text": " and then doing something in the garage. And it was me."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:00,000",
+				"to": "00:03:18,000"
+			},
+			"offsets": {
+				"from": 180000,
+				"to": 198000
+			},
+			"text": " Dude, I had a flashback to when my dad punched me in the face from going sledding and I know you know that story."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:18,000",
+				"to": "00:03:37,000"
+			},
+			"offsets": {
+				"from": 198000,
+				"to": 217000
+			},
+			"text": " The part is the enemy people said do everything you can to stay away from getting upset or triggered and like this is like next level."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:37,000",
+				"to": "00:03:53,000"
+			},
+			"offsets": {
+				"from": 217000,
+				"to": 233000
+			},
+			"text": " So then I snapped it back. I informed your mother that I'm a 56 year old man, not a 13 year old boy."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:53,000",
+				"to": "00:04:08,000"
+			},
+			"offsets": {
+				"from": 233000,
+				"to": 248000
+			},
+			"text": " And I said I'm sorry. She said you made me mad and I interrupted her and I said no, no, no, no. You made yourself mad. I didn't make you do anything."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:08,000",
+				"to": "00:04:26,000"
+			},
+			"offsets": {
+				"from": 248000,
+				"to": 266000
+			},
+			"text": " I think that pissed her off even more. Anyway, I couldn't send this to you in a text."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:26,000",
+				"to": "00:04:42,000"
+			},
+			"offsets": {
+				"from": 266000,
+				"to": 282000
+			},
+			"text": " But here I'm sitting in your mom's basement and I'm at the point where I'm ready to pack up my fucking car and I'll go to King Super's fucking parking lot."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:42,000",
+				"to": "00:05:07,000"
+			},
+			"offsets": {
+				"from": 282000,
+				"to": 307000
+			},
+			"text": " Or actually Walmart. I know where that is. I don't know Walmart will kick me out."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:07,000",
+				"to": "00:05:20,000"
+			},
+			"offsets": {
+				"from": 307000,
+				"to": 320000
+			},
+			"text": " I don't know what the fuck to do. Maybe I should sleep in my car."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:20,000",
+				"to": "00:05:37,000"
+			},
+			"offsets": {
+				"from": 320000,
+				"to": 337000
+			},
+			"text": " Maybe I should go over to Tree in Bounds and sleep over there. They're not home. Scotty's here. I just don't know what the fuck to do. It just sucks that I had such a great day."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:37,000",
+				"to": "00:06:00,000"
+			},
+			"offsets": {
+				"from": 337000,
+				"to": 360000
+			},
+			"text": " I was looking forward to coming home and painting because I went to the Picasso exhibit today at the museum and I got really inspired. And now I just came home and got fucking attacked."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:00,000",
+				"to": "00:06:18,000"
+			},
+			"offsets": {
+				"from": 360000,
+				"to": 378000
+			},
+			"text": " This is the last thing I need. I've been really good. I've stayed away from the news. I've stayed away from all the things that I know will trigger me. And the universe fucking delivered this."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:18,000",
+				"to": "00:06:29,000"
+			},
+			"offsets": {
+				"from": 378000,
+				"to": 389000
+			},
+			"text": " I'll leave it there. Stop crying. This is big, okay? It's a big file. It's like six gigs. I'll try to make it smaller before I send it."
+		}
+	]
+}

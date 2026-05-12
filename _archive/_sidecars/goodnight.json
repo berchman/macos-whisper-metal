@@ -1,0 +1,142 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/bertm/_00_GIT_MASTER/00_TAWK2TEXT/_models/ggml-medium.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:17,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 17000
+			},
+			"text": " Well, I tried to chill out, but just ended up crying more and filling my head up with snot."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,000",
+				"to": "00:00:29,000"
+			},
+			"offsets": {
+				"from": 17000,
+				"to": 29000
+			},
+			"text": " So, I've been, goodness, crying now for over two hours."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,000",
+				"to": "00:00:37,000"
+			},
+			"offsets": {
+				"from": 29000,
+				"to": 37000
+			},
+			"text": " So, yeah, it's been a tough night."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,000",
+				"to": "00:00:47,000"
+			},
+			"offsets": {
+				"from": 37000,
+				"to": 47000
+			},
+			"text": " I think I'm gonna maybe go to sleep and see if I can wake up at, like, five-ish."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:47,000",
+				"to": "00:00:57,000"
+			},
+			"offsets": {
+				"from": 47000,
+				"to": 57000
+			},
+			"text": " Grab my shit and head over to Tree and Don's and work from there."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:57,000",
+				"to": "00:01:09,000"
+			},
+			"offsets": {
+				"from": 57000,
+				"to": 69000
+			},
+			"text": " Maybe do Uber or something to get a ride back from my appointment tomorrow."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:09,000",
+				"to": "00:01:30,000"
+			},
+			"offsets": {
+				"from": 69000,
+				"to": 90000
+			},
+			"text": " I can drive myself there and leave the car there, ride my bike tomorrow or the day after tomorrow, ride my bike over and get the car back on Thursday."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:30,000",
+				"to": "00:01:44,000"
+			},
+			"offsets": {
+				"from": 90000,
+				"to": 104000
+			},
+			"text": " Alright, the worst fucking headache. It's like my head's been in a vice all night, squeezed."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,000",
+				"to": "00:01:58,000"
+			},
+			"offsets": {
+				"from": 104000,
+				"to": 118000
+			},
+			"text": " It's just shit that I could feel so good and get so disillusioned so quickly."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:58,000",
+				"to": "00:02:07,000"
+			},
+			"offsets": {
+				"from": 118000,
+				"to": 127000
+			},
+			"text": " It's like I can't believe in anything. Not for a fucking minute."
+		}
+	]
+}

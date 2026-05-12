@@ -1,0 +1,461 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/bertm/_00_GIT_MASTER/00_TAWK2TEXT/_models/ggml-medium.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:28,760"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 28760
+			},
+			"text": " I got to be honest, I don't even know where to begin."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,760",
+				"to": "00:00:51,680"
+			},
+			"offsets": {
+				"from": 28760,
+				"to": 51680
+			},
+			"text": " All I know is that right now I have so many thoughts swimming through my head and I feel"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:51,680",
+				"to": "00:01:18,880"
+			},
+			"offsets": {
+				"from": 51680,
+				"to": 78880
+			},
+			"text": " very groundless. And I feel alone. Of course, you know, I claim to have these tools, which"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:18,880",
+				"to": "00:01:34,560"
+			},
+			"offsets": {
+				"from": 78880,
+				"to": 94560
+			},
+			"text": " I'm doing. But I don't know, I don't know if it's plateau or what. Or maybe the challenge"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:34,560",
+				"to": "00:01:54,160"
+			},
+			"offsets": {
+				"from": 94560,
+				"to": 114160
+			},
+			"text": " is rising on me and getting too big for me to handle. There's a quality to all of this"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:54,160",
+				"to": "00:02:03,200"
+			},
+			"offsets": {
+				"from": 114160,
+				"to": 123200
+			},
+			"text": " that feels unjust. And that's probably the thing I have the hardest time reconciling"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:03,200",
+				"to": "00:02:31,760"
+			},
+			"offsets": {
+				"from": 123200,
+				"to": 151760
+			},
+			"text": " is that my whole life I've done nothing but try to be good and not upset anyone."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:31,760",
+				"to": "00:02:54,280"
+			},
+			"offsets": {
+				"from": 151760,
+				"to": 174280
+			},
+			"text": " Unfortunately, that was the way of being that I learned as a child. And unfortunately, I"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:54,280",
+				"to": "00:03:18,000"
+			},
+			"offsets": {
+				"from": 174280,
+				"to": 198000
+			},
+			"text": " wasn't living my pattern, routine way of being. I don't know what you want to call it."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:18,000",
+				"to": "00:03:31,840"
+			},
+			"offsets": {
+				"from": 198000,
+				"to": 211840
+			},
+			"text": " Maybe another thought and I know this is going to all me. Well, some of it may come across"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:31,840",
+				"to": "00:03:44,400"
+			},
+			"offsets": {
+				"from": 211840,
+				"to": 224400
+			},
+			"text": " as just like a random splatter of things. But I've wanted to, I've wanted to do this"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:44,400",
+				"to": "00:04:00,880"
+			},
+			"offsets": {
+				"from": 224400,
+				"to": 240880
+			},
+			"text": " video recording thing for some time and be honest, I'm kind of afraid of doing it. Um,"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:00,880",
+				"to": "00:04:08,560"
+			},
+			"offsets": {
+				"from": 240880,
+				"to": 248560
+			},
+			"text": " it's weird. I wish I had done it because I would love now to look back at where my head"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:08,560",
+				"to": "00:04:21,600"
+			},
+			"offsets": {
+				"from": 248560,
+				"to": 261600
+			},
+			"text": " was at last year on this day. And the year before that, it'd be interesting to see any"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:21,600",
+				"to": "00:04:49,760"
+			},
+			"offsets": {
+				"from": 261600,
+				"to": 289760
+			},
+			"text": " different made any kind of progress at all. I've been listening to some interesting books"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:49,760",
+				"to": "00:05:04,560"
+			},
+			"offsets": {
+				"from": 289760,
+				"to": 304560
+			},
+			"text": " and taking away some insights that I don't know. Helping me to frame things perspective."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:04,560",
+				"to": "00:05:32,560"
+			},
+			"offsets": {
+				"from": 304560,
+				"to": 332560
+			},
+			"text": " There's these long gaps. I keep staring because I'm not sure. Not sure about myself. Like"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:32,560",
+				"to": "00:05:38,640"
+			},
+			"offsets": {
+				"from": 332560,
+				"to": 338640
+			},
+			"text": " I said, I am, I'm kind of bummed that I hadn't do these a long time ago for the benefit of"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:38,640",
+				"to": "00:05:49,720"
+			},
+			"offsets": {
+				"from": 338640,
+				"to": 349720
+			},
+			"text": " being able to see myself. But I'm simultaneously like incredibly, I guess you'd say private."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:49,720",
+				"to": "00:06:03,720"
+			},
+			"offsets": {
+				"from": 349720,
+				"to": 363720
+			},
+			"text": " Like I don't go around blathering on about my life to other people. Anyway, the fact"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:03,720",
+				"to": "00:06:13,280"
+			},
+			"offsets": {
+				"from": 363720,
+				"to": 373280
+			},
+			"text": " that I'm even talking or video recording and doing this and trying to speak a little bit"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:13,280",
+				"to": "00:06:23,240"
+			},
+			"offsets": {
+				"from": 373280,
+				"to": 383240
+			},
+			"text": " about myself is amazing in and of itself. In fact, I think what I'll do that I have"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:23,240",
+				"to": "00:06:34,040"
+			},
+			"offsets": {
+				"from": 383240,
+				"to": 394040
+			},
+			"text": " this looking at it's like six minutes now, six and a half. So I think what I'd like to"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:34,040",
+				"to": "00:06:47,680"
+			},
+			"offsets": {
+				"from": 394040,
+				"to": 407680
+			},
+			"text": " do is record again, but maybe be a little more organized. Maybe have my thoughts written"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:47,680",
+				"to": "00:07:15,400"
+			},
+			"offsets": {
+				"from": 407680,
+				"to": 435400
+			},
+			"text": " down. Who knows? One thing I do know, I'm one day at a time. There are a lot of days"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:15,400",
+				"to": "00:07:30,760"
+			},
+			"offsets": {
+				"from": 435400,
+				"to": 450760
+			},
+			"text": " where I honestly don't think I'm going to see the sunshine tomorrow. There's something"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:30,760",
+				"to": "00:07:50,840"
+			},
+			"offsets": {
+				"from": 450760,
+				"to": 470840
+			},
+			"text": " enormous about the pain that I'm carrying. It's more painful than anything I've ever"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:50,840",
+				"to": "00:08:09,160"
+			},
+			"offsets": {
+				"from": 470840,
+				"to": 489160
+			},
+			"text": " experienced in my life. Worse than the feeling is more intense than memories of childhood"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:09,160",
+				"to": "00:08:24,520"
+			},
+			"offsets": {
+				"from": 489160,
+				"to": 504520
+			},
+			"text": " trauma. This is, it's weird to be like in the middle of this experience. And I don't"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:24,520",
+				"to": "00:08:29,360"
+			},
+			"offsets": {
+				"from": 504520,
+				"to": 509360
+			},
+			"text": " know, it's hard to put it in words. Going in and out of being able to put my thoughts"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:29,360",
+				"to": "00:08:38,760"
+			},
+			"offsets": {
+				"from": 509360,
+				"to": 518760
+			},
+			"text": " together clearly. The one other thing I can say is that the cognitive load of this, like"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:38,760",
+				"to": "00:08:47,840"
+			},
+			"offsets": {
+				"from": 518760,
+				"to": 527840
+			},
+			"text": " this stress and at the same time, starting a new job and trying to deliver and perform"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:47,840",
+				"to": "00:09:06,920"
+			},
+			"offsets": {
+				"from": 527840,
+				"to": 546920
+			},
+			"text": " and show you the right person for the job. That and yeah, today was the first day of"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:06,920",
+				"to": "00:09:17,080"
+			},
+			"offsets": {
+				"from": 546920,
+				"to": 557080
+			},
+			"text": " hearing out my shit. I am listening to a very good book. It's giving me some insights. So"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:17,080",
+				"to": "00:09:37,200"
+			},
+			"offsets": {
+				"from": 557080,
+				"to": 577200
+			},
+			"text": " I guess tomorrow I'll continue with the moving. They're backing and do some work, meditate."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:37,200",
+				"to": "00:09:49,680"
+			},
+			"offsets": {
+				"from": 577200,
+				"to": 589680
+			},
+			"text": " I don't wake up crying. It's almost become like peeing the bed when I was a kid. I wake"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:49,680",
+				"to": "00:09:59,480"
+			},
+			"offsets": {
+				"from": 589680,
+				"to": 599480
+			},
+			"text": " up every morning crying and no memory of any kind of dreaming or any anything. I go to"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:59,480",
+				"to": "00:10:13,880"
+			},
+			"offsets": {
+				"from": 599480,
+				"to": 613880
+			},
+			"text": " bed sad, I wake up sad. Been that way for years now. So there you have it, a 10 minute"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:13,880",
+				"to": "00:10:17,080"
+			},
+			"offsets": {
+				"from": 613880,
+				"to": 617080
+			},
+			"text": " report. Talk to you tomorrow."
+		}
+	]
+}

@@ -1,0 +1,241 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/bertm/_00_GIT_MASTER/00_TAWK2TEXT/_models/ggml-medium.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:16,400"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 16400
+			},
+			"text": " Hello? I think you can hear me. Let's hope we're coming through clear. I wanted to share"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,400",
+				"to": "00:00:33,040"
+			},
+			"offsets": {
+				"from": 16400,
+				"to": 33040
+			},
+			"text": " about the idea of old reminders. And by that I mean things coming up that at one"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:33,040",
+				"to": "00:00:41,360"
+			},
+			"offsets": {
+				"from": 33040,
+				"to": 41360
+			},
+			"text": " time were either persistent or you know multiple times a day kind of things."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:41,360",
+				"to": "00:00:54,480"
+			},
+			"offsets": {
+				"from": 41360,
+				"to": 54480
+			},
+			"text": " And it's after you've had some time with those things not present in your life for a while they"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:54,480",
+				"to": "00:01:13,760"
+			},
+			"offsets": {
+				"from": 54480,
+				"to": 73760
+			},
+			"text": " can show their ugly heads once again. Which is unfortunate but it is what it is. So..."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:24,640",
+				"to": "00:01:35,520"
+			},
+			"offsets": {
+				"from": 84640,
+				"to": 95520
+			},
+			"text": " I had been feeling great. Well,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:35,520",
+				"to": "00:01:48,720"
+			},
+			"offsets": {
+				"from": 95520,
+				"to": 108720
+			},
+			"text": " my version of great is someone's really down day. But that is shifting and I'm glad for that."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:50,320",
+				"to": "00:02:05,120"
+			},
+			"offsets": {
+				"from": 110320,
+				"to": 125120
+			},
+			"text": " And so the shift for me or let's say there were, excuse me, let's start over one more fucking time."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:08,960",
+				"to": "00:02:25,040"
+			},
+			"offsets": {
+				"from": 128960,
+				"to": 145040
+			},
+			"text": " Yeah, so the reminder in my case was not about a thing. No. Because I could insert any"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:25,040",
+				"to": "00:02:36,800"
+			},
+			"offsets": {
+				"from": 145040,
+				"to": 156800
+			},
+			"text": " focus or point of focus into this. What it is is a behavior. And the behavior being something"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:38,960",
+				"to": "00:02:41,920"
+			},
+			"offsets": {
+				"from": 158960,
+				"to": 161920
+			},
+			"text": " in the abstract would go something like this."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:41,920",
+				"to": "00:02:54,720"
+			},
+			"offsets": {
+				"from": 161920,
+				"to": 174720
+			},
+			"text": " You are going about your day. You know you may have a game plan. Shit you want to get done."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:54,720",
+				"to": "00:03:02,800"
+			},
+			"offsets": {
+				"from": 174720,
+				"to": 182800
+			},
+			"text": " Or it could be a carefree laissez-faire day. You know and things just roll how they roll."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:04,800",
+				"to": "00:03:15,120"
+			},
+			"offsets": {
+				"from": 184800,
+				"to": 195120
+			},
+			"text": " This was a, I got a list 35 fucking feet long and I need to get some shit done."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:15,120",
+				"to": "00:03:28,240"
+			},
+			"offsets": {
+				"from": 195120,
+				"to": 208240
+			},
+			"text": " So when this behavior shows up, number one it's annoying in and of itself. The behavior. Number"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:28,240",
+				"to": "00:03:38,480"
+			},
+			"offsets": {
+				"from": 208240,
+				"to": 218480
+			},
+			"text": " two then there's the focus of whatever the behavior is focused on. Then if you're a lucky"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:38,480",
+				"to": "00:03:46,560"
+			},
+			"offsets": {
+				"from": 218480,
+				"to": 226560
+			},
+			"text": " chap like myself, you have the metacognitive ability to float your brain outside of this"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:46,560",
+				"to": "00:03:56,480"
+			},
+			"offsets": {
+				"from": 226560,
+				"to": 236480
+			},
+			"text": " whole scenario. And watch yourself get fucked over by yourself is basically what I'm talking about."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:56,480",
+				"to": "00:04:06,560"
+			},
+			"offsets": {
+				"from": 236480,
+				"to": 246560
+			},
+			"text": " And it's, I just realized it's pretty awful that I'm laughing. But I've lived so many"
+		}
+	]
+}

@@ -1,0 +1,1209 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/bertm/_00_GIT_MASTER/00_TAWK2TEXT/_models/ggml-medium.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,580"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2580
+			},
+			"text": " (wind blowing)"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,580",
+				"to": "00:00:09,120"
+			},
+			"offsets": {
+				"from": 2580,
+				"to": 9120
+			},
+			"text": " The only reason I'm qualified to give this message to you"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,120",
+				"to": "00:00:13,160"
+			},
+			"offsets": {
+				"from": 9120,
+				"to": 13160
+			},
+			"text": " is because of my experience."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,160",
+				"to": "00:00:14,840"
+			},
+			"offsets": {
+				"from": 13160,
+				"to": 14840
+			},
+			"text": " Hey, my name's Burt."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,840",
+				"to": "00:00:20,760"
+			},
+			"offsets": {
+				"from": 14840,
+				"to": 20760
+			},
+			"text": " I have been involved in technology since 1992."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,760",
+				"to": "00:00:25,740"
+			},
+			"offsets": {
+				"from": 20760,
+				"to": 25740
+			},
+			"text": " And what?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,160",
+				"to": "00:00:30,920"
+			},
+			"offsets": {
+				"from": 28160,
+				"to": 30920
+			},
+			"text": " (Burt chuckles)"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,920",
+				"to": "00:00:35,040"
+			},
+			"offsets": {
+				"from": 30920,
+				"to": 35040
+			},
+			"text": " I've been in technology since 1992,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:35,040",
+				"to": "00:00:36,880"
+			},
+			"offsets": {
+				"from": 35040,
+				"to": 36880
+			},
+			"text": " and I can tell you this."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,880",
+				"to": "00:00:39,940"
+			},
+			"offsets": {
+				"from": 36880,
+				"to": 39940
+			},
+			"text": " What I saw back then is the same thing"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:39,940",
+				"to": "00:00:41,840"
+			},
+			"offsets": {
+				"from": 39940,
+				"to": 41840
+			},
+			"text": " that's happening now with AI."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:41,840",
+				"to": "00:00:46,000"
+			},
+			"offsets": {
+				"from": 41840,
+				"to": 46000
+			},
+			"text": " We have about five years"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:46,000",
+				"to": "00:00:49,880"
+			},
+			"offsets": {
+				"from": 46000,
+				"to": 49880
+			},
+			"text": " until everything really changes hard."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:49,880",
+				"to": "00:00:51,760"
+			},
+			"offsets": {
+				"from": 49880,
+				"to": 51760
+			},
+			"text": " It's going to take about that long"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:51,760",
+				"to": "00:00:55,280"
+			},
+			"offsets": {
+				"from": 51760,
+				"to": 55280
+			},
+			"text": " for it to really saturate our systems."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:55,280",
+				"to": "00:00:59,480"
+			},
+			"offsets": {
+				"from": 55280,
+				"to": 59480
+			},
+			"text": " So if you are not"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:59,480",
+				"to": "00:01:06,280"
+			},
+			"offsets": {
+				"from": 59480,
+				"to": 66280
+			},
+			"text": " on the AI train yet, now is the time."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,280",
+				"to": "00:01:11,240"
+			},
+			"offsets": {
+				"from": 66280,
+				"to": 71240
+			},
+			"text": " It is just like 1998"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:11,240",
+				"to": "00:01:15,800"
+			},
+			"offsets": {
+				"from": 71240,
+				"to": 75800
+			},
+			"text": " before the dot-com bust of '99."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,800",
+				"to": "00:01:19,280"
+			},
+			"offsets": {
+				"from": 75800,
+				"to": 79280
+			},
+			"text": " Everybody's investing."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,280",
+				"to": "00:01:21,360"
+			},
+			"offsets": {
+				"from": 79280,
+				"to": 81360
+			},
+			"text": " Everybody's going gangbusters."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:22,720",
+				"to": "00:01:25,240"
+			},
+			"offsets": {
+				"from": 82720,
+				"to": 85240
+			},
+			"text": " But within eight years of that,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:25,240",
+				"to": "00:01:29,240"
+			},
+			"offsets": {
+				"from": 85240,
+				"to": 89240
+			},
+			"text": " 'cause it took a little longer,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:29,240",
+				"to": "00:01:31,700"
+			},
+			"offsets": {
+				"from": 89240,
+				"to": 91700
+			},
+			"text": " you had social media and smartphones,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,700",
+				"to": "00:01:35,480"
+			},
+			"offsets": {
+				"from": 91700,
+				"to": 95480
+			},
+			"text": " and then the whole fucking world is different after that."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:35,480",
+				"to": "00:01:40,140"
+			},
+			"offsets": {
+				"from": 95480,
+				"to": 100140
+			},
+			"text": " (Burt sniffles)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:52,720",
+				"to": "00:01:55,480"
+			},
+			"offsets": {
+				"from": 112720,
+				"to": 115480
+			},
+			"text": " (birds chirping)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:55,480",
+				"to": "00:02:02,040"
+			},
+			"offsets": {
+				"from": 115480,
+				"to": 122040
+			},
+			"text": " My message is this."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:02,040",
+				"to": "00:02:04,640"
+			},
+			"offsets": {
+				"from": 122040,
+				"to": 124640
+			},
+			"text": " History is repeating itself,"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:04,640",
+				"to": "00:02:06,320"
+			},
+			"offsets": {
+				"from": 124640,
+				"to": 126320
+			},
+			"text": " tuk-tuk, logically."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:06,320",
+				"to": "00:02:08,980"
+			},
+			"offsets": {
+				"from": 126320,
+				"to": 128980
+			},
+			"text": " (Burt sniffles)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:08,980",
+				"to": "00:02:12,160"
+			},
+			"offsets": {
+				"from": 128980,
+				"to": 132160
+			},
+			"text": " And,"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:12,160",
+				"to": "00:02:16,040"
+			},
+			"offsets": {
+				"from": 132160,
+				"to": 136040
+			},
+			"text": " what"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:21,080",
+				"to": "00:02:25,160"
+			},
+			"offsets": {
+				"from": 141080,
+				"to": 145160
+			},
+			"text": " you need to do is be able to"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:25,160",
+				"to": "00:02:30,660"
+			},
+			"offsets": {
+				"from": 145160,
+				"to": 150660
+			},
+			"text": " anticipate the shift as best you can."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:30,660",
+				"to": "00:02:35,680"
+			},
+			"offsets": {
+				"from": 150660,
+				"to": 155680
+			},
+			"text": " And by that,"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:35,680",
+				"to": "00:02:39,080"
+			},
+			"offsets": {
+				"from": 155680,
+				"to": 159080
+			},
+			"text": " I do something"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:39,080",
+				"to": "00:02:41,660"
+			},
+			"offsets": {
+				"from": 159080,
+				"to": 161660
+			},
+			"text": " which I call"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:41,660",
+				"to": "00:02:46,320"
+			},
+			"offsets": {
+				"from": 161660,
+				"to": 166320
+			},
+			"text": " future-proofing."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:46,320",
+				"to": "00:02:50,320"
+			},
+			"offsets": {
+				"from": 166320,
+				"to": 170320
+			},
+			"text": " And by future-proofing, what do I mean?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:51,640",
+				"to": "00:02:54,640"
+			},
+			"offsets": {
+				"from": 171640,
+				"to": 174640
+			},
+			"text": " I'm not a fucking swami,"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:54,640",
+				"to": "00:02:57,880"
+			},
+			"offsets": {
+				"from": 174640,
+				"to": 177880
+			},
+			"text": " so I can't read a crystal ball"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:57,880",
+				"to": "00:03:01,760"
+			},
+			"offsets": {
+				"from": 177880,
+				"to": 181760
+			},
+			"text": " and tell you what is literally going to happen."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:01,760",
+				"to": "00:03:04,040"
+			},
+			"offsets": {
+				"from": 181760,
+				"to": 184040
+			},
+			"text": " But I can"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:04,040",
+				"to": "00:03:07,720"
+			},
+			"offsets": {
+				"from": 184040,
+				"to": 187720
+			},
+			"text": " say this."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:07,720",
+				"to": "00:03:10,160"
+			},
+			"offsets": {
+				"from": 187720,
+				"to": 190160
+			},
+			"text": " If you"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:10,160",
+				"to": "00:03:15,960"
+			},
+			"offsets": {
+				"from": 190160,
+				"to": 195960
+			},
+			"text": " look at the technology at your disposal"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:15,960",
+				"to": "00:03:17,300"
+			},
+			"offsets": {
+				"from": 195960,
+				"to": 197300
+			},
+			"text": " at any given moment,"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:21,520",
+				"to": "00:03:24,960"
+			},
+			"offsets": {
+				"from": 201520,
+				"to": 204960
+			},
+			"text": " and you know what things have connect,"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:24,960",
+				"to": "00:03:27,880"
+			},
+			"offsets": {
+				"from": 204960,
+				"to": 207880
+			},
+			"text": " you can connect and what things you can't."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:27,880",
+				"to": "00:03:30,040"
+			},
+			"offsets": {
+				"from": 207880,
+				"to": 210040
+			},
+			"text": " And within those things,"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:30,040",
+				"to": "00:03:34,560"
+			},
+			"offsets": {
+				"from": 210040,
+				"to": 214560
+			},
+			"text": " you kind of know what's coming next, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:34,560",
+				"to": "00:03:39,560"
+			},
+			"offsets": {
+				"from": 214560,
+				"to": 219560
+			},
+			"text": " Every technology has a, oh, new version coming, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:39,560",
+				"to": "00:03:42,160"
+			},
+			"offsets": {
+				"from": 219560,
+				"to": 222160
+			},
+			"text": " Back in the early days of the web,"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:42,160",
+				"to": "00:03:44,700"
+			},
+			"offsets": {
+				"from": 222160,
+				"to": 224700
+			},
+			"text": " it was easy to keep track of things"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:44,700",
+				"to": "00:03:47,000"
+			},
+			"offsets": {
+				"from": 224700,
+				"to": 227000
+			},
+			"text": " because there wasn't that many things moving."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:47,000",
+				"to": "00:03:48,000"
+			},
+			"offsets": {
+				"from": 227000,
+				"to": 228000
+			},
+			"text": " There was, you know,"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:50,200",
+				"to": "00:03:52,900"
+			},
+			"offsets": {
+				"from": 230200,
+				"to": 232900
+			},
+			"text": " if there was 100 things, I'd be surprised."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:52,900",
+				"to": "00:03:57,640"
+			},
+			"offsets": {
+				"from": 232900,
+				"to": 237640
+			},
+			"text": " It's literally millions of small companies now"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:57,640",
+				"to": "00:03:58,880"
+			},
+			"offsets": {
+				"from": 237640,
+				"to": 238880
+			},
+			"text": " changing the earth."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:58,880",
+				"to": "00:04:01,280"
+			},
+			"offsets": {
+				"from": 238880,
+				"to": 241280
+			},
+			"text": " And"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:01,280",
+				"to": "00:04:04,560"
+			},
+			"offsets": {
+				"from": 241280,
+				"to": 244560
+			},
+			"text": " the acceleration"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:04,560",
+				"to": "00:04:07,800"
+			},
+			"offsets": {
+				"from": 244560,
+				"to": 247800
+			},
+			"text": " of change is,"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:07,800",
+				"to": "00:04:13,880"
+			},
+			"offsets": {
+				"from": 247800,
+				"to": 253880
+			},
+			"text": " hasn't even hit everybody yet."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:13,880",
+				"to": "00:04:18,800"
+			},
+			"offsets": {
+				"from": 253880,
+				"to": 258800
+			},
+			"text": " I see it because I work with the AI every day, you know?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:20,200",
+				"to": "00:04:22,780"
+			},
+			"offsets": {
+				"from": 260200,
+				"to": 262780
+			},
+			"text": " (wind blowing)"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:22,780",
+				"to": "00:04:27,640"
+			},
+			"offsets": {
+				"from": 262780,
+				"to": 267640
+			},
+			"text": " I see what it does every day."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:27,640",
+				"to": "00:04:32,480"
+			},
+			"offsets": {
+				"from": 267640,
+				"to": 272480
+			},
+			"text": " And I've used it for enough years now"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:32,480",
+				"to": "00:04:36,100"
+			},
+			"offsets": {
+				"from": 272480,
+				"to": 276100
+			},
+			"text": " that I see"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:36,100",
+				"to": "00:04:40,440"
+			},
+			"offsets": {
+				"from": 276100,
+				"to": 280440
+			},
+			"text": " the progress it's made"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:40,440",
+				"to": "00:04:43,820"
+			},
+			"offsets": {
+				"from": 280440,
+				"to": 283820
+			},
+			"text": " just during my time of using it,"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:43,820",
+				"to": "00:04:47,440"
+			},
+			"offsets": {
+				"from": 283820,
+				"to": 287440
+			},
+			"text": " let alone how far it's come"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:47,440",
+				"to": "00:04:49,640"
+			},
+			"offsets": {
+				"from": 287440,
+				"to": 289640
+			},
+			"text": " since it's been in the commercial space,"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:49,640",
+				"to": "00:04:51,300"
+			},
+			"offsets": {
+				"from": 289640,
+				"to": 291300
+			},
+			"text": " like just for people to use."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:51,300",
+				"to": "00:04:54,640"
+			},
+			"offsets": {
+				"from": 291300,
+				"to": 294640
+			},
+			"text": " And now that I am using it"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:54,640",
+				"to": "00:05:01,200"
+			},
+			"offsets": {
+				"from": 294640,
+				"to": 301200
+			},
+			"text": " in pretty much all facets of my work."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:01,200",
+				"to": "00:05:06,360"
+			},
+			"offsets": {
+				"from": 301200,
+				"to": 306360
+			},
+			"text": " And since I'm using it at that level now,"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:06,360",
+				"to": "00:05:13,660"
+			},
+			"offsets": {
+				"from": 306360,
+				"to": 313660
+			},
+			"text": " I see just how valuable and indispensable it is."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:13,660",
+				"to": "00:05:17,680"
+			},
+			"offsets": {
+				"from": 313660,
+				"to": 317680
+			},
+			"text": " And I'm finding myself to be someone"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:18,640",
+				"to": "00:05:22,500"
+			},
+			"offsets": {
+				"from": 318640,
+				"to": 322500
+			},
+			"text": " who is at an interesting point in AI adoption."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:22,500",
+				"to": "00:05:25,960"
+			},
+			"offsets": {
+				"from": 322500,
+				"to": 325960
+			},
+			"text": " I am someone"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:25,960",
+				"to": "00:05:29,680"
+			},
+			"offsets": {
+				"from": 325960,
+				"to": 329680
+			},
+			"text": " well-versed in the technology."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:29,680",
+				"to": "00:05:36,300"
+			},
+			"offsets": {
+				"from": 329680,
+				"to": 336300
+			},
+			"text": " Because of my experience,"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:36,300",
+				"to": "00:05:41,860"
+			},
+			"offsets": {
+				"from": 336300,
+				"to": 341860
+			},
+			"text": " basically know what to look out for,"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:41,860",
+				"to": "00:05:43,800"
+			},
+			"offsets": {
+				"from": 341860,
+				"to": 343800
+			},
+			"text": " what to prepare for,"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:43,800",
+				"to": "00:05:46,160"
+			},
+			"offsets": {
+				"from": 343800,
+				"to": 346160
+			},
+			"text": " kind of where things are gonna go."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:46,160",
+				"to": "00:05:48,600"
+			},
+			"offsets": {
+				"from": 346160,
+				"to": 348600
+			},
+			"text": " I do have a general sense."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:48,600",
+				"to": "00:05:50,600"
+			},
+			"offsets": {
+				"from": 348600,
+				"to": 350600
+			},
+			"text": " You know, 100,000 foot view,"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:50,600",
+				"to": "00:05:54,640"
+			},
+			"offsets": {
+				"from": 350600,
+				"to": 354640
+			},
+			"text": " what's probably gonna roll out or what will happen,"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:54,640",
+				"to": "00:05:58,680"
+			},
+			"offsets": {
+				"from": 354640,
+				"to": 358680
+			},
+			"text": " who the players are, who the specifics, no fucking clue."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:58,680",
+				"to": "00:06:01,120"
+			},
+			"offsets": {
+				"from": 358680,
+				"to": 361120
+			},
+			"text": " But I'm pretty sure certain things will happen."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:01,120",
+				"to": "00:06:04,520"
+			},
+			"offsets": {
+				"from": 361120,
+				"to": 364520
+			},
+			"text": " It's kind of like reading the tea leaves"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:04,520",
+				"to": "00:06:06,920"
+			},
+			"offsets": {
+				"from": 364520,
+				"to": 366920
+			},
+			"text": " from a million feet in the sky."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:06,920",
+				"to": "00:06:13,100"
+			},
+			"offsets": {
+				"from": 366920,
+				"to": 373100
+			},
+			"text": " It's, I guess, an intuition thing."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:14,080",
+				"to": "00:06:19,080"
+			},
+			"offsets": {
+				"from": 374080,
+				"to": 379080
+			},
+			"text": " And there's one aspect of having that kind of intuition,"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:19,080",
+				"to": "00:06:25,800"
+			},
+			"offsets": {
+				"from": 379080,
+				"to": 385800
+			},
+			"text": " and it's basically never let me down."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:25,800",
+				"to": "00:06:31,960"
+			},
+			"offsets": {
+				"from": 385800,
+				"to": 391960
+			},
+			"text": " And there have been big times during my life"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:31,960",
+				"to": "00:06:35,040"
+			},
+			"offsets": {
+				"from": 391960,
+				"to": 395040
+			},
+			"text": " where I have doubted it,"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:35,040",
+				"to": "00:06:40,040"
+			},
+			"offsets": {
+				"from": 395040,
+				"to": 400040
+			},
+			"text": " and you know, doubted my intuition."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:42,200",
+				"to": "00:06:45,380"
+			},
+			"offsets": {
+				"from": 402200,
+				"to": 405380
+			},
+			"text": " And I either missed out or paid for it."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:45,380",
+				"to": "00:06:51,480"
+			},
+			"offsets": {
+				"from": 405380,
+				"to": 411480
+			},
+			"text": " So I get all kinds of reminders all the time."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:51,480",
+				"to": "00:06:55,440"
+			},
+			"offsets": {
+				"from": 411480,
+				"to": 415440
+			},
+			"text": " Trust your intuition, trust your intuition."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:55,440",
+				"to": "00:07:00,440"
+			},
+			"offsets": {
+				"from": 415440,
+				"to": 420440
+			},
+			"text": " So Newbert intuition is a big part of my scheme."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:00,440",
+				"to": "00:07:08,800"
+			},
+			"offsets": {
+				"from": 420440,
+				"to": 428800
+			},
+			"text": " My structure, my backbone infrastructure,"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:10,680",
+				"to": "00:07:14,040"
+			},
+			"offsets": {
+				"from": 430680,
+				"to": 434040
+			},
+			"text": " which I'm gonna call it, okay, I'm tired."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:14,040",
+				"to": "00:07:15,960"
+			},
+			"offsets": {
+				"from": 434040,
+				"to": 435960
+			},
+			"text": " That's the end of this recording."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:15,960",
+				"to": "00:07:19,220"
+			},
+			"offsets": {
+				"from": 435960,
+				"to": 439220
+			},
+			"text": " I think I got something here worth writing about."
+		}
+	]
+}

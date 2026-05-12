@@ -1,0 +1,714 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/bertm/_00_GIT_MASTER/00_TAWK2TEXT/_models/ggml-medium.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:09,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 9000
+			},
+			"text": " It's May 1st. I'm 57 today. Born at 11.11 p.m. under a Scorpio moon."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,000",
+				"to": "00:00:16,000"
+			},
+			"offsets": {
+				"from": 9000,
+				"to": 16000
+			},
+			"text": " And tonight, the moon comes back around to Scorpio. That's not coincidence."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,000",
+				"to": "00:00:20,000"
+			},
+			"offsets": {
+				"from": 16000,
+				"to": 20000
+			},
+			"text": " That's the universe saying, \"Pay attention.\""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,000",
+				"to": "00:00:25,000"
+			},
+			"offsets": {
+				"from": 20000,
+				"to": 25000
+			},
+			"text": " Scorpio moons don't do birthdays like other people."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,000",
+				"to": "00:00:29,000"
+			},
+			"offsets": {
+				"from": 25000,
+				"to": 29000
+			},
+			"text": " We don't celebrate getting older. We mark transformations."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,000",
+				"to": "00:00:32,000"
+			},
+			"offsets": {
+				"from": 29000,
+				"to": 32000
+			},
+			"text": " We acknowledge deaths and rebirths."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,000",
+				"to": "00:00:36,000"
+			},
+			"offsets": {
+				"from": 32000,
+				"to": 36000
+			},
+			"text": " We honor what died so something else could live."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,000",
+				"to": "00:00:40,000"
+			},
+			"offsets": {
+				"from": 36000,
+				"to": 40000
+			},
+			"text": " And a lot has died in 57 years."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:40,000",
+				"to": "00:00:49,000"
+			},
+			"offsets": {
+				"from": 40000,
+				"to": 49000
+			},
+			"text": " If you know Scorpio moons, you know we live in the underworld."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:49,000",
+				"to": "00:00:55,000"
+			},
+			"offsets": {
+				"from": 49000,
+				"to": 55000
+			},
+			"text": " We see what's beneath. We feel what others avoid."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:55,000",
+				"to": "00:00:59,000"
+			},
+			"offsets": {
+				"from": 55000,
+				"to": 59000
+			},
+			"text": " We carry intensity people can't always handle."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:59,000",
+				"to": "00:01:11,000"
+			},
+			"offsets": {
+				"from": 59000,
+				"to": 71000
+			},
+			"text": " My Taurus Sun wants stability, roots, security, something solid to stand on."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:11,000",
+				"to": "00:01:21,000"
+			},
+			"offsets": {
+				"from": 71000,
+				"to": 81000
+			},
+			"text": " My Sagittarius Rising wants freedom, movement, truth without the bullshit."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:26,000",
+				"to": "00:01:37,000"
+			},
+			"offsets": {
+				"from": 86000,
+				"to": 97000
+			},
+			"text": " So here I am, craving stability I don't have, carrying intensity I can't put down, seeing truth even when it burns."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:37,000",
+				"to": "00:01:41,000"
+			},
+			"offsets": {
+				"from": 97000,
+				"to": 101000
+			},
+			"text": " That's the birth chart. That's the assignment."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:41,000",
+				"to": "00:01:46,000"
+			},
+			"offsets": {
+				"from": 101000,
+				"to": 106000
+			},
+			"text": " And I'm 57 years into figuring out how to live it."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:56,000",
+				"to": "00:02:01,000"
+			},
+			"offsets": {
+				"from": 116000,
+				"to": 121000
+			},
+			"text": " Recently I said I was graduating, done surviving, moving into living."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:01,000",
+				"to": "00:02:05,000"
+			},
+			"offsets": {
+				"from": 121000,
+				"to": 125000
+			},
+			"text": " And I mean it. But Scorpio moons know something most people don't."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:05,000",
+				"to": "00:02:09,000"
+			},
+			"offsets": {
+				"from": 125000,
+				"to": 129000
+			},
+			"text": " Rebirth isn't gentle. It's violent."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:09,000",
+				"to": "00:02:14,000"
+			},
+			"offsets": {
+				"from": 129000,
+				"to": 134000
+			},
+			"text": " You don't become something new by wishing for it."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:14,000",
+				"to": "00:02:22,000"
+			},
+			"offsets": {
+				"from": 134000,
+				"to": 142000
+			},
+			"text": " You become it by destroying what you were, by burning it down, by letting it die completely."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:22,000",
+				"to": "00:02:26,000"
+			},
+			"offsets": {
+				"from": 142000,
+				"to": 146000
+			},
+			"text": " So there's space for what's next."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:26,000",
+				"to": "00:02:34,000"
+			},
+			"offsets": {
+				"from": 146000,
+				"to": 154000
+			},
+			"text": " I've been in that fire for five years."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:34,000",
+				"to": "00:02:38,000"
+			},
+			"offsets": {
+				"from": 154000,
+				"to": 158000
+			},
+			"text": " Some days it felt like I was being erased."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:38,000",
+				"to": "00:02:41,000"
+			},
+			"offsets": {
+				"from": 158000,
+				"to": 161000
+			},
+			"text": " Some days it felt like I was erased."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:41,000",
+				"to": "00:02:46,000"
+			},
+			"offsets": {
+				"from": 161000,
+				"to": 166000
+			},
+			"text": " But I'm still here, barely, but here."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:47,000",
+				"to": "00:02:53,000"
+			},
+			"offsets": {
+				"from": 167000,
+				"to": 173000
+			},
+			"text": " And that barely is starting to feel like enough."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:53,000",
+				"to": "00:03:08,000"
+			},
+			"offsets": {
+				"from": 173000,
+				"to": 188000
+			},
+			"text": " I was born at 11-11 p.m. The universe stamped that on my birth certificate like a cosmic joke."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:08,000",
+				"to": "00:03:16,000"
+			},
+			"offsets": {
+				"from": 188000,
+				"to": 196000
+			},
+			"text": " People say 11-11 is about alignment, manifestation."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:16,000",
+				"to": "00:03:19,000"
+			},
+			"offsets": {
+				"from": 196000,
+				"to": 199000
+			},
+			"text": " The moment you're supposed to make a wish."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:19,000",
+				"to": "00:03:23,000"
+			},
+			"offsets": {
+				"from": 199000,
+				"to": 203000
+			},
+			"text": " I didn't know about all that, but I do know this."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:23,000",
+				"to": "00:03:27,000"
+			},
+			"offsets": {
+				"from": 203000,
+				"to": 207000
+			},
+			"text": " 11-11 is a mirror."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:27,000",
+				"to": "00:03:32,000"
+			},
+			"offsets": {
+				"from": 207000,
+				"to": 212000
+			},
+			"text": " What you see depends on whether you're willing to look."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:32,000",
+				"to": "00:03:42,000"
+			},
+			"offsets": {
+				"from": 212000,
+				"to": 222000
+			},
+			"text": " And I've spent 57 years learning to look at the parts that hurt, at the parts I hid, at the parts I edited out."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:42,000",
+				"to": "00:03:46,000"
+			},
+			"offsets": {
+				"from": 222000,
+				"to": 226000
+			},
+			"text": " Because they were too much for everyone else."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:46,000",
+				"to": "00:03:49,000"
+			},
+			"offsets": {
+				"from": 226000,
+				"to": 229000
+			},
+			"text": " I'm done hiding them."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:49,000",
+				"to": "00:03:57,000"
+			},
+			"offsets": {
+				"from": 229000,
+				"to": 237000
+			},
+			"text": " Tonight the moon comes back to Scorpio."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:57,000",
+				"to": "00:04:01,000"
+			},
+			"offsets": {
+				"from": 237000,
+				"to": 241000
+			},
+			"text": " The same placement it was when I was born."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:01,000",
+				"to": "00:04:04,000"
+			},
+			"offsets": {
+				"from": 241000,
+				"to": 244000
+			},
+			"text": " That's called a lunar return."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:04,000",
+				"to": "00:04:09,000"
+			},
+			"offsets": {
+				"from": 244000,
+				"to": 249000
+			},
+			"text": " It happens once a month, but when it lands on your birthday it hits different."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:09,000",
+				"to": "00:04:14,000"
+			},
+			"offsets": {
+				"from": 249000,
+				"to": 254000
+			},
+			"text": " It's the universe saying, \"Remember who the fuck you are.\""
+		},
+		{
+			"timestamps": {
+				"from": "00:04:14,000",
+				"to": "00:04:17,000"
+			},
+			"offsets": {
+				"from": 254000,
+				"to": 257000
+			},
+			"text": " Not who you were told to be."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:17,000",
+				"to": "00:04:20,000"
+			},
+			"offsets": {
+				"from": 257000,
+				"to": 260000
+			},
+			"text": " Not who you performed as."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:20,000",
+				"to": "00:04:23,000"
+			},
+			"offsets": {
+				"from": 260000,
+				"to": 263000
+			},
+			"text": " Not who you shrunk yourself into."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:23,000",
+				"to": "00:04:27,000"
+			},
+			"offsets": {
+				"from": 263000,
+				"to": 267000
+			},
+			"text": " Who you actually are when no one's watching."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:27,000",
+				"to": "00:04:31,000"
+			},
+			"offsets": {
+				"from": 267000,
+				"to": 271000
+			},
+			"text": " That's the person I'm becoming 57 with."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:31,000",
+				"to": "00:04:37,000"
+			},
+			"offsets": {
+				"from": 271000,
+				"to": 277000
+			},
+			"text": " That's the person I'm taking into this next orbit around the sun."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:40,000",
+				"to": "00:04:45,000"
+			},
+			"offsets": {
+				"from": 280000,
+				"to": 285000
+			},
+			"text": " So here's what I'm doing with this birthday."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:45,000",
+				"to": "00:04:48,000"
+			},
+			"offsets": {
+				"from": 285000,
+				"to": 288000
+			},
+			"text": " I'm not making a wish at 11-11."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:48,000",
+				"to": "00:04:51,000"
+			},
+			"offsets": {
+				"from": 288000,
+				"to": 291000
+			},
+			"text": " I'm not hoping for something to change."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:51,000",
+				"to": "00:04:54,000"
+			},
+			"offsets": {
+				"from": 291000,
+				"to": 294000
+			},
+			"text": " I'm not waiting for permission."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:54,000",
+				"to": "00:04:56,000"
+			},
+			"offsets": {
+				"from": 294000,
+				"to": 296000
+			},
+			"text": " I'm declaring it."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:56,000",
+				"to": "00:05:03,000"
+			},
+			"offsets": {
+				"from": 296000,
+				"to": 303000
+			},
+			"text": " I am done being the minimum of myself to be the maximum for others."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:03,000",
+				"to": "00:05:12,000"
+			},
+			"offsets": {
+				"from": 303000,
+				"to": 312000
+			},
+			"text": " I am done editing out the hard parts to make people feel comfortable."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:12,000",
+				"to": "00:05:20,000"
+			},
+			"offsets": {
+				"from": 312000,
+				"to": 320000
+			},
+			"text": " I am done waiting for the right time, the right conditions, the right approval."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:20,000",
+				"to": "00:05:22,000"
+			},
+			"offsets": {
+				"from": 320000,
+				"to": 322000
+			},
+			"text": " This is the right time."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:22,000",
+				"to": "00:05:24,000"
+			},
+			"offsets": {
+				"from": 322000,
+				"to": 324000
+			},
+			"text": " I am the right person."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:24,000",
+				"to": "00:05:30,000"
+			},
+			"offsets": {
+				"from": 324000,
+				"to": 330000
+			},
+			"text": " And I'm moving forward whether anyone else understands it or not."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:33,000",
+				"to": "00:05:38,000"
+			},
+			"offsets": {
+				"from": 333000,
+				"to": 338000
+			},
+			"text": " Scorpio moon. Taurus sun. Sagittarius rising."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:38,000",
+				"to": "00:05:43,000"
+			},
+			"offsets": {
+				"from": 338000,
+				"to": 343000
+			},
+			"text": " Intensity. Stability. Truth."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:43,000",
+				"to": "00:05:49,000"
+			},
+			"offsets": {
+				"from": 343000,
+				"to": 349000
+			},
+			"text": " That's the assignment, and I'm 57 years into it."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:49,000",
+				"to": "00:05:51,000"
+			},
+			"offsets": {
+				"from": 349000,
+				"to": 351000
+			},
+			"text": " Let's fucking go!"
+		}
+	]
+}

@@ -1,0 +1,483 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/bertm/_00_GIT_MASTER/00_TAWK2TEXT/_models/ggml-medium.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:20,400"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 20400
+			},
+			"text": " I am a man between two trees."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,040",
+				"to": "00:00:30,160"
+			},
+			"offsets": {
+				"from": 25040,
+				"to": 30160
+			},
+			"text": " It's time again for a man between two trees."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,160",
+				"to": "00:00:42,720"
+			},
+			"offsets": {
+				"from": 30160,
+				"to": 42720
+			},
+			"text": " Once again, once again ladies and gentlemen, it's that time. Gather the clan up."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:47,280",
+				"to": "00:00:58,000"
+			},
+			"offsets": {
+				"from": 47280,
+				"to": 58000
+			},
+			"text": " Not that kind of clan."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:17,280",
+				"to": "00:01:28,000"
+			},
+			"offsets": {
+				"from": 77280,
+				"to": 88000
+			},
+			"text": " So,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:47,280",
+				"to": "00:01:56,000"
+			},
+			"offsets": {
+				"from": 107280,
+				"to": 116000
+			},
+			"text": " so"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:18,000",
+				"to": "00:02:26,000"
+			},
+			"offsets": {
+				"from": 138000,
+				"to": 146000
+			},
+			"text": " so"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:47,280",
+				"to": "00:02:56,000"
+			},
+			"offsets": {
+				"from": 167280,
+				"to": 176000
+			},
+			"text": " so"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:17,280",
+				"to": "00:03:26,000"
+			},
+			"offsets": {
+				"from": 197280,
+				"to": 206000
+			},
+			"text": " so"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:47,280",
+				"to": "00:03:56,000"
+			},
+			"offsets": {
+				"from": 227280,
+				"to": 236000
+			},
+			"text": " so"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:17,280",
+				"to": "00:04:26,000"
+			},
+			"offsets": {
+				"from": 257280,
+				"to": 266000
+			},
+			"text": " so"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:47,280",
+				"to": "00:04:58,000"
+			},
+			"offsets": {
+				"from": 287280,
+				"to": 298000
+			},
+			"text": " so"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:58,000",
+				"to": "00:05:13,760"
+			},
+			"offsets": {
+				"from": 298000,
+				"to": 313760
+			},
+			"text": " What's cool is I can record"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:15,760",
+				"to": "00:05:22,800"
+			},
+			"offsets": {
+				"from": 315760,
+				"to": 322800
+			},
+			"text": " like this. Just clip it on and there we go. A little green thing will be caught up"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:22,800",
+				"to": "00:05:26,080"
+			},
+			"offsets": {
+				"from": 322800,
+				"to": 326080
+			},
+			"text": " into there. Yeah, whatever."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:26,080",
+				"to": "00:05:33,520"
+			},
+			"offsets": {
+				"from": 326080,
+				"to": 333520
+			},
+			"text": " So here's a freeform riff on my birthday."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:40,400",
+				"to": "00:05:50,080"
+			},
+			"offsets": {
+				"from": 340400,
+				"to": 350080
+			},
+			"text": " As that Basement Jack song says so well, \"Where's your head at, at, at? Where's your head at?"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:50,080",
+				"to": "00:06:01,440"
+			},
+			"offsets": {
+				"from": 350080,
+				"to": 361440
+			},
+			"text": " Where's your head at?\" I'll put the link below. I got a song for literally every angle of life."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:03,440",
+				"to": "00:06:13,520"
+			},
+			"offsets": {
+				"from": 363440,
+				"to": 373520
+			},
+			"text": " So today is it, motherfucker. It's graduation day. It's graduation day from the old Burt,"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:13,520",
+				"to": "00:06:25,520"
+			},
+			"offsets": {
+				"from": 373520,
+				"to": 385520
+			},
+			"text": " all the old shit, all the old stories, all the old framing of things. Always,"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:25,520",
+				"to": "00:06:33,040"
+			},
+			"offsets": {
+				"from": 385520,
+				"to": 393040
+			},
+			"text": " let me calm myself down. I have to be very clear with my words. Not always, but"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:34,240",
+				"to": "00:06:44,560"
+			},
+			"offsets": {
+				"from": 394240,
+				"to": 404560
+			},
+			"text": " referencing the past in a negative way that actually continues to perpetuate"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:44,560",
+				"to": "00:06:54,960"
+			},
+			"offsets": {
+				"from": 404560,
+				"to": 414960
+			},
+			"text": " negative frequency in my life. And the timer's going off because this means"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:54,960",
+				"to": "00:06:58,880"
+			},
+			"offsets": {
+				"from": 414960,
+				"to": 418880
+			},
+			"text": " I should stop video at this point. Should I let go?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:01,840",
+				"to": "00:07:08,800"
+			},
+			"offsets": {
+				"from": 421840,
+				"to": 428800
+			},
+			"text": " Sounds like I'm sitting in the yard playing music for myself. Oh, here goes the repeating."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:08,800",
+				"to": "00:07:18,080"
+			},
+			"offsets": {
+				"from": 428800,
+				"to": 438080
+			},
+			"text": " I should probably go up there. So yeah, there are more to say. I'll say more in a little bit."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:18,080",
+				"to": "00:07:23,920"
+			},
+			"offsets": {
+				"from": 438080,
+				"to": 443920
+			},
+			"text": " I can say this, that"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:31,120",
+				"to": "00:07:41,680"
+			},
+			"offsets": {
+				"from": 451120,
+				"to": 461680
+			},
+			"text": " I do feel that for people that have gone through a long period of trauma,"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:41,680",
+				"to": "00:07:53,680"
+			},
+			"offsets": {
+				"from": 461680,
+				"to": 473680
+			},
+			"text": " CPTSD, all kinds of nasty stuff, and you know what? No doctor, no therapist, no"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:54,960",
+				"to": "00:08:02,400"
+			},
+			"offsets": {
+				"from": 474960,
+				"to": 482400
+			},
+			"text": " special magic person is going to show up and tap you on the shoulder and look you in the eye and"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:02,400",
+				"to": "00:08:16,320"
+			},
+			"offsets": {
+				"from": 482400,
+				"to": 496320
+			},
+			"text": " say, \"You're done. It's all over.\" So I believe it's incumbent upon oneself when you feel"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:18,480",
+				"to": "00:08:27,120"
+			},
+			"offsets": {
+				"from": 498480,
+				"to": 507120
+			},
+			"text": " as though the inside of you is ready, but the outside world isn't yet. That's when you declare"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:27,120",
+				"to": "00:08:37,520"
+			},
+			"offsets": {
+				"from": 507120,
+				"to": 517520
+			},
+			"text": " you're done with the old shit. And I believe that by declaring that, and I believe,"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:41,280",
+				"to": "00:08:49,600"
+			},
+			"offsets": {
+				"from": 521280,
+				"to": 529600
+			},
+			"text": " I believe by declaring that, you put frequency out into the universe. You need to speak these"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:49,600",
+				"to": "00:08:58,480"
+			},
+			"offsets": {
+				"from": 529600,
+				"to": 538480
+			},
+			"text": " things literally out loud so that your voice creates sound waves, right? Isn't that the idea"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:58,480",
+				"to": "00:09:07,520"
+			},
+			"offsets": {
+				"from": 538480,
+				"to": 547520
+			},
+			"text": " that a butterfly on one side of the world creates a typhoon on the other side? So little things have"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:07,520",
+				"to": "00:09:17,360"
+			},
+			"offsets": {
+				"from": 547520,
+				"to": 557360
+			},
+			"text": " a big impact. And I know this from COVID times. Every single day, I was in the deepest of my"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:17,360",
+				"to": "00:09:32,320"
+			},
+			"offsets": {
+				"from": 557360,
+				"to": 572320
+			},
+			"text": " depression and my mind consistently was focused on negativity, the bad things. I was constantly"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:32,320",
+				"to": "00:09:39,120"
+			},
+			"offsets": {
+				"from": 572320,
+				"to": 579120
+			},
+			"text": " thinking about the things I did not want to come true. And ultimately,"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:49,200",
+				"to": "00:10:06,800"
+			},
+			"offsets": {
+				"from": 589200,
+				"to": 606800
+			},
+			"text": " those were the things. Come on, sucker. Thank you, motherfucker. Maybe there's a new Casper site"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:06,800",
+				"to": "00:10:22,800"
+			},
+			"offsets": {
+				"from": 606800,
+				"to": 622800
+			},
+			"text": " tonight. I had this boom. Wait, you're telling me we weren't recording?"
+		}
+	]
+}

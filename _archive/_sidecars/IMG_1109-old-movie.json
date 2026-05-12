@@ -1,0 +1,593 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/bertm/_00_GIT_MASTER/00_TAWK2TEXT/_models/ggml-medium.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:24,360"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 24360
+			},
+			"text": " I'd just like to share some insights that I've been having."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,360",
+				"to": "00:00:40,360"
+			},
+			"offsets": {
+				"from": 24360,
+				"to": 40360
+			},
+			"text": " It seems like every day, for almost two years now, I've thought deeply about every day."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:40,360",
+				"to": "00:00:55,200"
+			},
+			"offsets": {
+				"from": 40360,
+				"to": 55200
+			},
+			"text": " And every day, I somehow always end up in the same place, feeling so responsible for"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:55,200",
+				"to": "00:01:08,960"
+			},
+			"offsets": {
+				"from": 55200,
+				"to": 68960
+			},
+			"text": " all the horrible things that have happened to my wife and all the ways in which she feels"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:08,960",
+				"to": "00:01:13,380"
+			},
+			"offsets": {
+				"from": 68960,
+				"to": 73380
+			},
+			"text": " not heard and disrespected."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,380",
+				"to": "00:01:19,240"
+			},
+			"offsets": {
+				"from": 73380,
+				"to": 79240
+			},
+			"text": " The enormity of it all has never been missed upon me."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,240",
+				"to": "00:01:29,760"
+			},
+			"offsets": {
+				"from": 79240,
+				"to": 89760
+			},
+			"text": " The thing that I don't feel anybody knows is that I understand this."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:29,760",
+				"to": "00:01:46,440"
+			},
+			"offsets": {
+				"from": 89760,
+				"to": 106440
+			},
+			"text": " One insight I had just today was the idea or awareness that I know earlier in my previous"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:46,440",
+				"to": "00:01:59,820"
+			},
+			"offsets": {
+				"from": 106440,
+				"to": 119820
+			},
+			"text": " years when I got into deep spaces of depression, and I would withdraw and not communicate,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:59,820",
+				"to": "00:02:07,520"
+			},
+			"offsets": {
+				"from": 119820,
+				"to": 127520
+			},
+			"text": " essentially from a place of \"I didn't want to bother anybody,\" but it comes out of my"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:07,520",
+				"to": "00:02:16,760"
+			},
+			"offsets": {
+				"from": 127520,
+				"to": 136760
+			},
+			"text": " pores, you know, I don't know, my energy comes out of my pores, anyway, point being, I found"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:16,760",
+				"to": "00:02:25,120"
+			},
+			"offsets": {
+				"from": 136760,
+				"to": 145120
+			},
+			"text": " myself, in those moments, resorting to behaviors and patterns that I learned as a kid, I was"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:25,120",
+				"to": "00:02:32,080"
+			},
+			"offsets": {
+				"from": 145120,
+				"to": 152080
+			},
+			"text": " behaving like a little kid, I was shutting up, I was to be seen and not heard, I was"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:32,080",
+				"to": "00:02:43,720"
+			},
+			"offsets": {
+				"from": 152080,
+				"to": 163720
+			},
+			"text": " trying to hide and not be noticed, but at the same time, I just wanted to talk about"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:43,720",
+				"to": "00:03:01,120"
+			},
+			"offsets": {
+				"from": 163720,
+				"to": 181120
+			},
+			"text": " feeling forgotten, feeling not worth anything, because if you keep forgetting about me, who"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:01,120",
+				"to": "00:03:05,860"
+			},
+			"offsets": {
+				"from": 181120,
+				"to": 185860
+			},
+			"text": " am I?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:05,860",
+				"to": "00:03:13,600"
+			},
+			"offsets": {
+				"from": 185860,
+				"to": 193600
+			},
+			"text": " I just didn't know how to express myself, and I regret that deeply."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:13,600",
+				"to": "00:03:26,560"
+			},
+			"offsets": {
+				"from": 193600,
+				"to": 206560
+			},
+			"text": " I had the inability to, one, calm myself down to a level where I could even speak English."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:26,560",
+				"to": "00:03:34,720"
+			},
+			"offsets": {
+				"from": 206560,
+				"to": 214720
+			},
+			"text": " The hysterics get me a lot of times, and I get full of mucus and snot, and the hysteria"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:34,720",
+				"to": "00:03:40,360"
+			},
+			"offsets": {
+				"from": 214720,
+				"to": 220360
+			},
+			"text": " sets in and everything goes down my toilet after that."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:40,360",
+				"to": "00:03:51,320"
+			},
+			"offsets": {
+				"from": 220360,
+				"to": 231320
+			},
+			"text": " My point being is that, from that awareness about the behavior as a child and the behaviors"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:51,320",
+				"to": "00:03:58,720"
+			},
+			"offsets": {
+				"from": 231320,
+				"to": 238720
+			},
+			"text": " and things I do, perfect example is somebody starts speaking, and I just jump right in"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:58,720",
+				"to": "00:04:05,120"
+			},
+			"offsets": {
+				"from": 238720,
+				"to": 245120
+			},
+			"text": " over the top of them, and that is a defense mechanism, when I feel threatened, that's"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:05,120",
+				"to": "00:04:12,880"
+			},
+			"offsets": {
+				"from": 245120,
+				"to": 252880
+			},
+			"text": " what that is, and in the past when I did that, that was subconscious behavior, that was something"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:12,880",
+				"to": "00:04:19,840"
+			},
+			"offsets": {
+				"from": 252880,
+				"to": 259840
+			},
+			"text": " I was completely just not even aware of, I didn't even know I was doing it."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:19,840",
+				"to": "00:04:29,480"
+			},
+			"offsets": {
+				"from": 259840,
+				"to": 269480
+			},
+			"text": " Number one, I didn't know I was interrupting, number two, I didn't know the level of energy"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:29,480",
+				"to": "00:04:41,960"
+			},
+			"offsets": {
+				"from": 269480,
+				"to": 281960
+			},
+			"text": " I was bringing and how that would be perceived, and so on and so forth."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:41,960",
+				"to": "00:04:49,920"
+			},
+			"offsets": {
+				"from": 281960,
+				"to": 289920
+			},
+			"text": " The other thing that is impossible to communicate, honestly, unless you were to hang out with"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:49,920",
+				"to": "00:05:00,560"
+			},
+			"offsets": {
+				"from": 289920,
+				"to": 300560
+			},
+			"text": " me and spend time with me, is that I don't have that nervous vibe anymore, I'm not freaking"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:00,560",
+				"to": "00:05:10,640"
+			},
+			"offsets": {
+				"from": 300560,
+				"to": 310640
+			},
+			"text": " out about things like I used to, I mean, dealing with my life right now is extremely heavy,"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:10,640",
+				"to": "00:05:22,920"
+			},
+			"offsets": {
+				"from": 310640,
+				"to": 322920
+			},
+			"text": " and the events and what's going on trigger a lot of my depression, it's here, it's hanging"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:22,920",
+				"to": "00:05:32,800"
+			},
+			"offsets": {
+				"from": 322920,
+				"to": 332800
+			},
+			"text": " out with me, I won't lie about that, in fact I'm just not going to hide anything anymore,"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:32,800",
+				"to": "00:05:47,000"
+			},
+			"offsets": {
+				"from": 332800,
+				"to": 347000
+			},
+			"text": " I'll ask questions, I'll tell you the truth, always, I'll always tell the truth."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:47,000",
+				"to": "00:05:59,000"
+			},
+			"offsets": {
+				"from": 347000,
+				"to": 359000
+			},
+			"text": " I was in a dark place and had a global pandemic and I'm not making any excuses for anything"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:59,000",
+				"to": "00:06:11,520"
+			},
+			"offsets": {
+				"from": 359000,
+				"to": 371520
+			},
+			"text": " but where I found myself with self-medication at that time, I reflect back now and don't"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:11,520",
+				"to": "00:06:18,040"
+			},
+			"offsets": {
+				"from": 371520,
+				"to": 378040
+			},
+			"text": " know what the hell I was thinking, part of it was the depression lying to me telling"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:18,040",
+				"to": "00:06:23,840"
+			},
+			"offsets": {
+				"from": 378040,
+				"to": 383840
+			},
+			"text": " me that I'm not worth it, that I'm not worth going to the doctor and getting professional"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:23,840",
+				"to": "00:06:33,160"
+			},
+			"offsets": {
+				"from": 383840,
+				"to": 393160
+			},
+			"text": " care, that I should just wallow in my pain and suffering, and the self-medication was"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:33,160",
+				"to": "00:06:44,600"
+			},
+			"offsets": {
+				"from": 393160,
+				"to": 404600
+			},
+			"text": " just, you know, to numb you out so you didn't feel, I mean you just didn't feel like Charlie"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:44,600",
+				"to": "00:06:56,320"
+			},
+			"offsets": {
+				"from": 404600,
+				"to": 416320
+			},
+			"text": " Brown 24/7, just like melancholy, you know, anyhow, I'm getting eaten alive by mosquitoes"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:56,320",
+				"to": "00:07:07,800"
+			},
+			"offsets": {
+				"from": 416320,
+				"to": 427800
+			},
+			"text": " and I'm allergic to them so I'm going to cut this off now, I'm a different person,"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:07,800",
+				"to": "00:07:21,200"
+			},
+			"offsets": {
+				"from": 427800,
+				"to": 441200
+			},
+			"text": " the thing is nobody will listen, everybody looks at me with the same eyes and it's really"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:21,200",
+				"to": "00:07:22,200"
+			},
+			"offsets": {
+				"from": 441200,
+				"to": 442200
+			},
+			"text": " sad."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:22,200",
+				"to": "00:07:33,200"
+			},
+			"offsets": {
+				"from": 442200,
+				"to": 453200
+			},
+			"text": " I get emotional only because I know how hard I've worked to get where I am right now and"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:33,200",
+				"to": "00:07:41,560"
+			},
+			"offsets": {
+				"from": 453200,
+				"to": 461560
+			},
+			"text": " believe it or not I'm really happy with myself and honestly proud of myself."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:41,560",
+				"to": "00:07:49,040"
+			},
+			"offsets": {
+				"from": 461560,
+				"to": 469040
+			},
+			"text": " I regained my composure in a moment that was not something I used to be able to do, that"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:49,040",
+				"to": "00:08:04,320"
+			},
+			"offsets": {
+				"from": 469040,
+				"to": 484320
+			},
+			"text": " was pretty triggering, anyway, I just want to wrap up and say that I wish, I wish I could"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:04,320",
+				"to": "00:08:20,760"
+			},
+			"offsets": {
+				"from": 484320,
+				"to": 500760
+			},
+			"text": " be with my family, I wish I could be close so they could, so they could meet me again,"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:20,760",
+				"to": "00:08:29,280"
+			},
+			"offsets": {
+				"from": 500760,
+				"to": 509280
+			},
+			"text": " honestly, that's all I want, I just want to meet again, okay, I think that's it, I can"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:29,280",
+				"to": "00:08:37,040"
+			},
+			"offsets": {
+				"from": 509280,
+				"to": 517040
+			},
+			"text": " see twinkling light on the other side of the valley, just below the ridge line, I just"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:37,040",
+				"to": "00:08:51,640"
+			},
+			"offsets": {
+				"from": 517040,
+				"to": 531640
+			},
+			"text": " saw one, so that means it's time to say goodnight, okay, peace out, boy scout."
+		}
+	]
+}

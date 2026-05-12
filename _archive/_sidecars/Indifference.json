@@ -1,0 +1,2375 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/bertm/_00_GIT_MASTER/00_TAWK2TEXT/_models/ggml-medium.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:16,200"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 16200
+			},
+			"text": " This is a weird one to record, primarily about indifference."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,200",
+				"to": "00:00:24,040"
+			},
+			"offsets": {
+				"from": 16200,
+				"to": 24040
+			},
+			"text": " You know, what happens when you're doing the work, you know you're doing the work, you're"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,040",
+				"to": "00:00:37,840"
+			},
+			"offsets": {
+				"from": 24040,
+				"to": 37840
+			},
+			"text": " seeing results in yourself, people that are close enough to see you acknowledge the change"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,840",
+				"to": "00:00:55,860"
+			},
+			"offsets": {
+				"from": 37840,
+				"to": 55860
+			},
+			"text": " and the shift, yet, you're ready to go and you're looking to plug back in to the world,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:55,860",
+				"to": "00:01:03,680"
+			},
+			"offsets": {
+				"from": 55860,
+				"to": 63680
+			},
+			"text": " to society, to the economy."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:03,680",
+				"to": "00:01:24,040"
+			},
+			"offsets": {
+				"from": 63680,
+				"to": 84040
+			},
+			"text": " The sad truth is, you cannot exist in the United States without a receipt."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:24,040",
+				"to": "00:01:33,760"
+			},
+			"offsets": {
+				"from": 84040,
+				"to": 93760
+			},
+			"text": " And I say that because you can't be homeless, there's no vacancy allowed."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:33,760",
+				"to": "00:01:56,240"
+			},
+			"offsets": {
+				"from": 93760,
+				"to": 116240
+			},
+			"text": " It's a citation, a misdemeanor, and I had this image in my mind earlier of being on"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:56,240",
+				"to": "00:02:11,600"
+			},
+			"offsets": {
+				"from": 116240,
+				"to": 131600
+			},
+			"text": " what was my life, the boat that was my life, and I went through violent storm and fell"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:11,600",
+				"to": "00:02:27,800"
+			},
+			"offsets": {
+				"from": 131600,
+				"to": 147800
+			},
+			"text": " off the boat and sank lower and lower until I wanted to go lower."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:27,800",
+				"to": "00:02:32,640"
+			},
+			"offsets": {
+				"from": 147800,
+				"to": 152640
+			},
+			"text": " It was as if an evil part of me was punishing me."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:32,640",
+				"to": "00:02:36,240"
+			},
+			"offsets": {
+				"from": 152640,
+				"to": 156240
+			},
+			"text": " I went to the depths where there was no light."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:36,240",
+				"to": "00:02:39,320"
+			},
+			"offsets": {
+				"from": 156240,
+				"to": 159320
+			},
+			"text": " I was in the abyss."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:39,320",
+				"to": "00:02:45,120"
+			},
+			"offsets": {
+				"from": 159320,
+				"to": 165120
+			},
+			"text": " I became the singularity at one point."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:45,120",
+				"to": "00:02:57,960"
+			},
+			"offsets": {
+				"from": 165120,
+				"to": 177960
+			},
+			"text": " I know what it's like to have my toes over the edge looking down into black infinity"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:57,960",
+				"to": "00:03:04,960"
+			},
+			"offsets": {
+				"from": 177960,
+				"to": 184960
+			},
+			"text": " and ready to go, to take the step, but I didn't."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:04,960",
+				"to": "00:03:13,400"
+			},
+			"offsets": {
+				"from": 184960,
+				"to": 193400
+			},
+			"text": " I stuck around, and I'm ready to go."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:13,400",
+				"to": "00:03:25,520"
+			},
+			"offsets": {
+				"from": 193400,
+				"to": 205520
+			},
+			"text": " It's like society and capitalism and the economy is saying, \"Fuck you,\" for fucking up."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:25,520",
+				"to": "00:03:29,960"
+			},
+			"offsets": {
+				"from": 205520,
+				"to": 209960
+			},
+			"text": " It's a form of punishment."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:29,960",
+				"to": "00:03:31,600"
+			},
+			"offsets": {
+				"from": 209960,
+				"to": 211600
+			},
+			"text": " It feels like it, weirdly."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:31,600",
+				"to": "00:03:45,740"
+			},
+			"offsets": {
+				"from": 211600,
+				"to": 225740
+			},
+			"text": " I know it's not, but that feeling when you keep showing up day after day after day after"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:45,740",
+				"to": "00:04:00,920"
+			},
+			"offsets": {
+				"from": 225740,
+				"to": 240920
+			},
+			"text": " day, and nobody responds in the way that's going to take you that one next step, that"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:00,920",
+				"to": "00:04:09,280"
+			},
+			"offsets": {
+				"from": 240920,
+				"to": 249280
+			},
+			"text": " one breadcrumb, next on the trail."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:09,280",
+				"to": "00:04:21,040"
+			},
+			"offsets": {
+				"from": 249280,
+				"to": 261040
+			},
+			"text": " And let me just say that between the beginning of this year and January until now, I have"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:21,040",
+				"to": "00:04:32,080"
+			},
+			"offsets": {
+				"from": 261040,
+				"to": 272080
+			},
+			"text": " had such incredible things, amazing things come into my life, things I wouldn't trade"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:32,080",
+				"to": "00:04:35,800"
+			},
+			"offsets": {
+				"from": 272080,
+				"to": 275800
+			},
+			"text": " for anything."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:35,800",
+				"to": "00:04:45,040"
+			},
+			"offsets": {
+				"from": 275800,
+				"to": 285040
+			},
+			"text": " They have more value to me than money, and I've already wept with my gratitude to the"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:45,040",
+				"to": "00:04:49,280"
+			},
+			"offsets": {
+				"from": 285040,
+				"to": 289280
+			},
+			"text": " universe about these things that have shown up in my life."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:49,280",
+				"to": "00:04:55,320"
+			},
+			"offsets": {
+				"from": 289280,
+				"to": 295320
+			},
+			"text": " They're very important to me, and right now they're very tenuous, and part of that reason"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:55,320",
+				"to": "00:05:01,420"
+			},
+			"offsets": {
+				"from": 295320,
+				"to": 301420
+			},
+			"text": " is my inability to plug into the fucking economy, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:01,420",
+				"to": "00:05:06,980"
+			},
+			"offsets": {
+				"from": 301420,
+				"to": 306980
+			},
+			"text": " You can lead a horse to water, but you can't make it drink."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:06,980",
+				"to": "00:05:21,600"
+			},
+			"offsets": {
+				"from": 306980,
+				"to": 321600
+			},
+			"text": " I can build the coolest fucking digital shit this side of planet Earth, and I'm invisible."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:21,600",
+				"to": "00:05:31,920"
+			},
+			"offsets": {
+				"from": 321600,
+				"to": 331920
+			},
+			"text": " It's like I don't fucking exist, yet my stuff is online."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:31,920",
+				"to": "00:05:44,880"
+			},
+			"offsets": {
+				"from": 331920,
+				"to": 344880
+			},
+			"text": " I was one of the first 25 million people on the internet in 1994, maybe it was '95."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:44,880",
+				"to": "00:05:52,960"
+			},
+			"offsets": {
+				"from": 344880,
+				"to": 352960
+			},
+			"text": " There are billions now, I get it, but I'm an OG, and it's like I can't fucking get"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:52,960",
+				"to": "00:06:04,160"
+			},
+			"offsets": {
+				"from": 352960,
+				"to": 364160
+			},
+			"text": " anything, not one nibble, and it's as if no tool or technique will work."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:04,160",
+				"to": "00:06:12,720"
+			},
+			"offsets": {
+				"from": 364160,
+				"to": 372720
+			},
+			"text": " It's as if you're on some kind of metaphorical blacklist."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:12,720",
+				"to": "00:06:30,360"
+			},
+			"offsets": {
+				"from": 372720,
+				"to": 390360
+			},
+			"text": " I'm doing everything right, and the universe is not meeting me in that one spot."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:30,360",
+				"to": "00:06:39,440"
+			},
+			"offsets": {
+				"from": 390360,
+				"to": 399440
+			},
+			"text": " This isn't a rejection, this is like an indifference, a silence, it's like a ghosting."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:39,440",
+				"to": "00:06:44,100"
+			},
+			"offsets": {
+				"from": 399440,
+				"to": 404100
+			},
+			"text": " You build something, you publish it, you put it out there, you put yourself out there,"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:44,100",
+				"to": "00:06:52,760"
+			},
+			"offsets": {
+				"from": 404100,
+				"to": 412760
+			},
+			"text": " you show up honestly, rawly, completely, and you get crickets."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:52,760",
+				"to": "00:06:58,880"
+			},
+			"offsets": {
+				"from": 412760,
+				"to": 418880
+			},
+			"text": " Doing the things I'm supposed to be doing in terms of looking for work and job hunting"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:58,880",
+				"to": "00:07:03,700"
+			},
+			"offsets": {
+				"from": 418880,
+				"to": 423700
+			},
+			"text": " and trying to get my own thing off the ground, I am doing all the things."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:03,700",
+				"to": "00:07:10,200"
+			},
+			"offsets": {
+				"from": 423700,
+				"to": 430200
+			},
+			"text": " I've been doing all the things for years, and my head is in a good place now."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:10,200",
+				"to": "00:07:16,300"
+			},
+			"offsets": {
+				"from": 430200,
+				"to": 436300
+			},
+			"text": " It's not in a dark place anymore."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:16,300",
+				"to": "00:07:20,960"
+			},
+			"offsets": {
+				"from": 436300,
+				"to": 440960
+			},
+			"text": " If we're gonna get into frequency and energy and all that shit, my vibration is way fucking"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:20,960",
+				"to": "00:07:23,600"
+			},
+			"offsets": {
+				"from": 440960,
+				"to": 443600
+			},
+			"text": " higher, brother."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:23,600",
+				"to": "00:07:24,600"
+			},
+			"offsets": {
+				"from": 443600,
+				"to": 444600
+			},
+			"text": " I don't get it."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:24,600",
+				"to": "00:07:29,040"
+			},
+			"offsets": {
+				"from": 444600,
+				"to": 449040
+			},
+			"text": " I'm vibrating at a much higher frequency, yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:29,040",
+				"to": "00:07:41,040"
+			},
+			"offsets": {
+				"from": 449040,
+				"to": 461040
+			},
+			"text": " So I want abundance in the financial arena."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:41,040",
+				"to": "00:07:42,480"
+			},
+			"offsets": {
+				"from": 461040,
+				"to": 462480
+			},
+			"text": " I'm not asking for millions."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:42,480",
+				"to": "00:07:47,480"
+			},
+			"offsets": {
+				"from": 462480,
+				"to": 467480
+			},
+			"text": " I'm asking for enough so that I don't have to think about it."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:47,480",
+				"to": "00:08:01,200"
+			},
+			"offsets": {
+				"from": 467480,
+				"to": 481200
+			},
+			"text": " It's not a fucking struggle or nonexistent at all like it feels right now in my life."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:01,200",
+				"to": "00:08:12,000"
+			},
+			"offsets": {
+				"from": 481200,
+				"to": 492000
+			},
+			"text": " There's a kind of shame that's coming on me right now, and it's the shame of feeling like"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:12,000",
+				"to": "00:08:15,840"
+			},
+			"offsets": {
+				"from": 492000,
+				"to": 495840
+			},
+			"text": " you've been around too long."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:15,840",
+				"to": "00:08:21,600"
+			},
+			"offsets": {
+				"from": 495840,
+				"to": 501600
+			},
+			"text": " You're the company that needs to fucking get out of the house."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:21,600",
+				"to": "00:08:28,880"
+			},
+			"offsets": {
+				"from": 501600,
+				"to": 508880
+			},
+			"text": " I feel that vibe intensely, and I want to get the fuck out of here, but I can't go anywhere"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:28,880",
+				"to": "00:08:38,120"
+			},
+			"offsets": {
+				"from": 508880,
+				"to": 518120
+			},
+			"text": " without money and some way to keep making money so that I can keep moving and get to"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:38,120",
+				"to": "00:08:45,120"
+			},
+			"offsets": {
+				"from": 518120,
+				"to": 525120
+			},
+			"text": " where I need to be."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:45,120",
+				"to": "00:08:49,920"
+			},
+			"offsets": {
+				"from": 525120,
+				"to": 529920
+			},
+			"text": " I'm just not understanding it."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:49,920",
+				"to": "00:09:03,800"
+			},
+			"offsets": {
+				"from": 529920,
+				"to": 543800
+			},
+			"text": " I've put in applications, I show up, I'm not afraid to fucking work, and yeah, I'm just"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:03,800",
+				"to": "00:09:18,240"
+			},
+			"offsets": {
+				"from": 543800,
+				"to": 558240
+			},
+			"text": " pissed because I'm right here, and nothing seems to work."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:18,240",
+				"to": "00:09:28,420"
+			},
+			"offsets": {
+				"from": 558240,
+				"to": 568420
+			},
+			"text": " So what do you do when you've controlled the controllables?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:28,420",
+				"to": "00:09:34,480"
+			},
+			"offsets": {
+				"from": 568420,
+				"to": 574480
+			},
+			"text": " You've controlled your effort, you've controlled your attitude, you've controlled the energy"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:34,480",
+				"to": "00:09:39,160"
+			},
+			"offsets": {
+				"from": 574480,
+				"to": 579160
+			},
+			"text": " you're putting in towards things."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:39,160",
+				"to": "00:09:44,400"
+			},
+			"offsets": {
+				"from": 579160,
+				"to": 584400
+			},
+			"text": " Where the focus goes, the energy flows, and right now my focus has been on getting dollars"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:44,400",
+				"to": "00:09:54,440"
+			},
+			"offsets": {
+				"from": 584400,
+				"to": 594440
+			},
+			"text": " in my door, and it ain't happening."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:54,440",
+				"to": "00:09:59,160"
+			},
+			"offsets": {
+				"from": 594440,
+				"to": 599160
+			},
+			"text": " How do you make that fucking work?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:59,160",
+				"to": "00:10:07,520"
+			},
+			"offsets": {
+				"from": 599160,
+				"to": 607520
+			},
+			"text": " And it's not like I don't have something to fucking offer, please."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:07,520",
+				"to": "00:10:13,120"
+			},
+			"offsets": {
+				"from": 607520,
+				"to": 613120
+			},
+			"text": " I have knowledge in my head people will pay fucking tens of thousands of dollars for."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:13,120",
+				"to": "00:10:24,960"
+			},
+			"offsets": {
+				"from": 613120,
+				"to": 624960
+			},
+			"text": " Shit, hundreds of thousands of dollars for all the fucking decades of experience I got."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:24,960",
+				"to": "00:10:43,360"
+			},
+			"offsets": {
+				"from": 624960,
+				"to": 643360
+			},
+			"text": " I can't even get a fucking conversation, let alone even acknowledged that I exist."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:43,360",
+				"to": "00:10:52,120"
+			},
+			"offsets": {
+				"from": 643360,
+				"to": 652120
+			},
+			"text": " You know, you can only redesign things so many fucking times until you just give up"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:52,120",
+				"to": "00:10:57,000"
+			},
+			"offsets": {
+				"from": 652120,
+				"to": 657000
+			},
+			"text": " on shit, you know?"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:57,000",
+				"to": "00:11:01,160"
+			},
+			"offsets": {
+				"from": 657000,
+				"to": 661160
+			},
+			"text": " It's like 80/20 principle, at least that comes to mind, you know?"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:01,160",
+				"to": "00:11:08,640"
+			},
+			"offsets": {
+				"from": 661160,
+				"to": 668640
+			},
+			"text": " You've put in the 80%, and that last 20% really doesn't get you much else, and like, I feel"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:08,640",
+				"to": "00:11:26,560"
+			},
+			"offsets": {
+				"from": 668640,
+				"to": 686560
+			},
+			"text": " like I'm at 90% and like, you know, I'm just fucking exhausted from surviving, not living"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:26,560",
+				"to": "00:11:30,800"
+			},
+			"offsets": {
+				"from": 686560,
+				"to": 690800
+			},
+			"text": " for more than three years now."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:30,800",
+				"to": "00:11:40,400"
+			},
+			"offsets": {
+				"from": 690800,
+				"to": 700400
+			},
+			"text": " Three years without steady employment is this May, May 2023 was when my last gig ended,"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:40,400",
+				"to": "00:11:52,160"
+			},
+			"offsets": {
+				"from": 700400,
+				"to": 712160
+			},
+			"text": " May 15th, 2023."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:52,160",
+				"to": "00:12:00,680"
+			},
+			"offsets": {
+				"from": 712160,
+				"to": 720680
+			},
+			"text": " And yeah, I'm at a stretch right now to find any kind of silver lining to this, you know?"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:00,680",
+				"to": "00:12:05,320"
+			},
+			"offsets": {
+				"from": 720680,
+				"to": 725320
+			},
+			"text": " What the fuck else do I got?"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:05,320",
+				"to": "00:12:09,560"
+			},
+			"offsets": {
+				"from": 725320,
+				"to": 729560
+			},
+			"text": " I just got to keep showing up."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:09,560",
+				"to": "00:12:17,880"
+			},
+			"offsets": {
+				"from": 729560,
+				"to": 737880
+			},
+			"text": " It seems pointless, it seems fruitless."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:17,880",
+				"to": "00:12:23,600"
+			},
+			"offsets": {
+				"from": 737880,
+				"to": 743600
+			},
+			"text": " Just seems like throwing more good effort away."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:23,600",
+				"to": "00:12:29,080"
+			},
+			"offsets": {
+				"from": 743600,
+				"to": 749080
+			},
+			"text": " You know, being exhausted after surviving all those years and now I got to fucking double"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:29,080",
+				"to": "00:12:34,120"
+			},
+			"offsets": {
+				"from": 749080,
+				"to": 754120
+			},
+			"text": " down and hustle as I have been for a couple weeks."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:34,120",
+				"to": "00:12:43,680"
+			},
+			"offsets": {
+				"from": 754120,
+				"to": 763680
+			},
+			"text": " Like I said, redoing shit, redesigning, fucking coming up with a valuable offer that is like"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:43,680",
+				"to": "00:13:03,120"
+			},
+			"offsets": {
+				"from": 763680,
+				"to": 783120
+			},
+			"text": " worth 10 times what I'm selling it for or offering it for, easily worth 10 times."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:03,120",
+				"to": "00:13:28,120"
+			},
+			"offsets": {
+				"from": 783120,
+				"to": 808120
+			},
+			"text": " So yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah,"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:28,120",
+				"to": "00:13:47,320"
+			},
+			"offsets": {
+				"from": 808120,
+				"to": 827320
+			},
+			"text": " yeah, really that's that that's kind of the whole thing."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:47,320",
+				"to": "00:13:55,520"
+			},
+			"offsets": {
+				"from": 827320,
+				"to": 835520
+			},
+			"text": " In summary is you just got to keep fucking showing up because you don't have any other"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:55,520",
+				"to": "00:14:00,020"
+			},
+			"offsets": {
+				"from": 835520,
+				"to": 840020
+			},
+			"text": " choice."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:00,020",
+				"to": "00:14:07,280"
+			},
+			"offsets": {
+				"from": 840020,
+				"to": 847280
+			},
+			"text": " Well you do, but it's not a choice anybody wants to take."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:07,280",
+				"to": "00:14:14,920"
+			},
+			"offsets": {
+				"from": 847280,
+				"to": 854920
+			},
+			"text": " You know, it basically boils down to tapping out, which, you know, in terms of this article"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:14,920",
+				"to": "00:14:18,080"
+			},
+			"offsets": {
+				"from": 854920,
+				"to": 858080
+			},
+			"text": " and writing, I'd rather not even bring this up."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:18,080",
+				"to": "00:14:21,520"
+			},
+			"offsets": {
+				"from": 858080,
+				"to": 861520
+			},
+			"text": " I mean, I'm not that has not come into my mind."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:21,520",
+				"to": "00:14:23,480"
+			},
+			"offsets": {
+				"from": 861520,
+				"to": 863480
+			},
+			"text": " My head isn't in that space."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:23,480",
+				"to": "00:14:28,800"
+			},
+			"offsets": {
+				"from": 863480,
+				"to": 868800
+			},
+			"text": " I'm glad, you know, I'm just in this."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:28,800",
+				"to": "00:14:34,400"
+			},
+			"offsets": {
+				"from": 868800,
+				"to": 874400
+			},
+			"text": " I feel like I'm in this fucking giant canyon going hello and I just hear my fucking voice"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:34,400",
+				"to": "00:14:39,960"
+			},
+			"offsets": {
+				"from": 874400,
+				"to": 879960
+			},
+			"text": " going way off into the distance and nothing ever."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:39,960",
+				"to": "00:15:02,120"
+			},
+			"offsets": {
+				"from": 879960,
+				"to": 902120
+			},
+			"text": " I don't fucking hear from anyone, not a fucking soul."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:02,120",
+				"to": "00:15:12,600"
+			},
+			"offsets": {
+				"from": 902120,
+				"to": 912600
+			},
+			"text": " You know, this is documentation of getting back on your fucking feet and it ain't pretty."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:12,600",
+				"to": "00:15:27,120"
+			},
+			"offsets": {
+				"from": 912600,
+				"to": 927120
+			},
+			"text": " I just had a birthday living in a room inside my family's home, you know, my family is supporting"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:27,120",
+				"to": "00:15:45,520"
+			},
+			"offsets": {
+				"from": 927120,
+				"to": 945520
+			},
+			"text": " me and that fucking George Washington monument high level of shame is crazy to deal with."
+		},
+		{
+			"timestamps": {
+				"from": "00:15:45,520",
+				"to": "00:15:55,500"
+			},
+			"offsets": {
+				"from": 945520,
+				"to": 955500
+			},
+			"text": " The thing is, though, I've dealt with so much shame in my life and in particular over these"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:55,500",
+				"to": "00:16:01,920"
+			},
+			"offsets": {
+				"from": 955500,
+				"to": 961920
+			},
+			"text": " past years and processing wounds and trauma and stuff that it doesn't faze me."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:01,920",
+				"to": "00:16:08,840"
+			},
+			"offsets": {
+				"from": 961920,
+				"to": 968840
+			},
+			"text": " I actually I mean, I if I focus on it, it's there where the focus goes."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:08,840",
+				"to": "00:16:09,840"
+			},
+			"offsets": {
+				"from": 968840,
+				"to": 969840
+			},
+			"text": " The energy flows."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:09,840",
+				"to": "00:16:13,140"
+			},
+			"offsets": {
+				"from": 969840,
+				"to": 973140
+			},
+			"text": " If I focus on shame, that's what I'll be vibing with."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:13,140",
+				"to": "00:16:15,160"
+			},
+			"offsets": {
+				"from": 973140,
+				"to": 975160
+			},
+			"text": " And I'm just not going there."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:15,160",
+				"to": "00:16:18,320"
+			},
+			"offsets": {
+				"from": 975160,
+				"to": 978320
+			},
+			"text": " It's it's it's I am really surfing."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:18,320",
+				"to": "00:16:19,840"
+			},
+			"offsets": {
+				"from": 978320,
+				"to": 979840
+			},
+			"text": " I'm picking my waves."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:19,840",
+				"to": "00:16:24,920"
+			},
+			"offsets": {
+				"from": 979840,
+				"to": 984920
+			},
+			"text": " You know, it used to be that, you know, life was going to say, oh, you're doing this set"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:24,920",
+				"to": "00:16:26,200"
+			},
+			"offsets": {
+				"from": 984920,
+				"to": 986200
+			},
+			"text": " of waves today."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:26,200",
+				"to": "00:16:29,240"
+			},
+			"offsets": {
+				"from": 986200,
+				"to": 989240
+			},
+			"text": " And I'm on the beach now going, I'm going to do this one."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:29,240",
+				"to": "00:16:36,440"
+			},
+			"offsets": {
+				"from": 989240,
+				"to": 996440
+			},
+			"text": " But it turns out like every set of waves I'm picking, I'm I'm riding them and I'm getting"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:36,440",
+				"to": "00:16:39,360"
+			},
+			"offsets": {
+				"from": 996440,
+				"to": 999360
+			},
+			"text": " back to shore."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:39,360",
+				"to": "00:16:44,760"
+			},
+			"offsets": {
+				"from": 999360,
+				"to": 1004760
+			},
+			"text": " But everybody else is walking home with the money and I'm getting nothing."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:44,760",
+				"to": "00:16:46,060"
+			},
+			"offsets": {
+				"from": 1004760,
+				"to": 1006060
+			},
+			"text": " People don't even see me."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:46,060",
+				"to": "00:16:49,800"
+			},
+			"offsets": {
+				"from": 1006060,
+				"to": 1009800
+			},
+			"text": " They don't even see me surfing."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:49,800",
+				"to": "00:16:54,760"
+			},
+			"offsets": {
+				"from": 1009800,
+				"to": 1014760
+			},
+			"text": " Yet I got to keep showing the fuck up every day and keep surfing."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:54,760",
+				"to": "00:16:57,800"
+			},
+			"offsets": {
+				"from": 1014760,
+				"to": 1017800
+			},
+			"text": " Keep going."
+		},
+		{
+			"timestamps": {
+				"from": "00:16:57,800",
+				"to": "00:17:13,140"
+			},
+			"offsets": {
+				"from": 1017800,
+				"to": 1033140
+			},
+			"text": " Thinking that someday I won't be invisible anymore."
+		},
+		{
+			"timestamps": {
+				"from": "00:17:13,140",
+				"to": "00:17:16,360"
+			},
+			"offsets": {
+				"from": 1033140,
+				"to": 1036360
+			},
+			"text": " It's really fucked up."
+		},
+		{
+			"timestamps": {
+				"from": "00:17:16,360",
+				"to": "00:17:23,800"
+			},
+			"offsets": {
+				"from": 1036360,
+				"to": 1043800
+			},
+			"text": " Because more than anything, I love the hermit quality to my life."
+		},
+		{
+			"timestamps": {
+				"from": "00:17:23,800",
+				"to": "00:17:26,760"
+			},
+			"offsets": {
+				"from": 1043800,
+				"to": 1046760
+			},
+			"text": " I love solitude."
+		},
+		{
+			"timestamps": {
+				"from": "00:17:26,760",
+				"to": "00:17:29,540"
+			},
+			"offsets": {
+				"from": 1046760,
+				"to": 1049540
+			},
+			"text": " I love being by myself."
+		},
+		{
+			"timestamps": {
+				"from": "00:17:29,540",
+				"to": "00:17:38,280"
+			},
+			"offsets": {
+				"from": 1049540,
+				"to": 1058280
+			},
+			"text": " I love just hanging out by myself inside my world, thinking about little projects and"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:38,280",
+				"to": "00:17:42,800"
+			},
+			"offsets": {
+				"from": 1058280,
+				"to": 1062800
+			},
+			"text": " things that my mind likes to noodle on."
+		},
+		{
+			"timestamps": {
+				"from": "00:17:42,800",
+				"to": "00:17:53,200"
+			},
+			"offsets": {
+				"from": 1062800,
+				"to": 1073200
+			},
+			"text": " And now having gone through this experience, I've found a way to sit still and grow in"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:53,200",
+				"to": "00:17:55,480"
+			},
+			"offsets": {
+				"from": 1073200,
+				"to": 1075480
+			},
+			"text": " ways I never thought possible."
+		},
+		{
+			"timestamps": {
+				"from": "00:17:55,480",
+				"to": "00:18:03,560"
+			},
+			"offsets": {
+				"from": 1075480,
+				"to": 1083560
+			},
+			"text": " And it's growing through stillness, which is an interesting paradigm in and of itself."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:03,560",
+				"to": "00:18:06,160"
+			},
+			"offsets": {
+				"from": 1083560,
+				"to": 1086160
+			},
+			"text": " Standing still, yet you're growing."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:06,160",
+				"to": "00:18:12,600"
+			},
+			"offsets": {
+				"from": 1086160,
+				"to": 1092600
+			},
+			"text": " Maybe capitalism should take a he to that one."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:12,600",
+				"to": "00:18:13,600"
+			},
+			"offsets": {
+				"from": 1092600,
+				"to": 1093600
+			},
+			"text": " That's the other thing."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:13,600",
+				"to": "00:18:15,360"
+			},
+			"offsets": {
+				"from": 1093600,
+				"to": 1095360
+			},
+			"text": " We can't have endless growth."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:15,360",
+				"to": "00:18:19,560"
+			},
+			"offsets": {
+				"from": 1095360,
+				"to": 1099560
+			},
+			"text": " It's just universe doesn't fucking work that way."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:19,560",
+				"to": "00:18:25,200"
+			},
+			"offsets": {
+				"from": 1099560,
+				"to": 1105200
+			},
+			"text": " And it's like the rich are fucking spending their money to make it be that way."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:25,200",
+				"to": "00:18:26,960"
+			},
+			"offsets": {
+				"from": 1105200,
+				"to": 1106960
+			},
+			"text": " It's weird."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:26,960",
+				"to": "00:18:31,520"
+			},
+			"offsets": {
+				"from": 1106960,
+				"to": 1111520
+			},
+			"text": " A lot of shit doesn't make any sense right now."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:31,520",
+				"to": "00:18:35,000"
+			},
+			"offsets": {
+				"from": 1111520,
+				"to": 1115000
+			},
+			"text": " The economy doesn't make any sense."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:35,000",
+				"to": "00:18:40,480"
+			},
+			"offsets": {
+				"from": 1115000,
+				"to": 1120480
+			},
+			"text": " The government doesn't make any sense."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:40,480",
+				"to": "00:18:43,280"
+			},
+			"offsets": {
+				"from": 1120480,
+				"to": 1123280
+			},
+			"text": " Society and public is fucked up."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:43,280",
+				"to": "00:18:46,920"
+			},
+			"offsets": {
+				"from": 1123280,
+				"to": 1126920
+			},
+			"text": " People are very isolated."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:46,920",
+				"to": "00:18:49,520"
+			},
+			"offsets": {
+				"from": 1126920,
+				"to": 1129520
+			},
+			"text": " Way more than when I was a kid."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:49,520",
+				"to": "00:18:51,720"
+			},
+			"offsets": {
+				"from": 1129520,
+				"to": 1131720
+			},
+			"text": " Holy shit."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:51,720",
+				"to": "00:18:56,480"
+			},
+			"offsets": {
+				"from": 1131720,
+				"to": 1136480
+			},
+			"text": " And I thought people were kind of isolated when I was young."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:56,480",
+				"to": "00:19:03,840"
+			},
+			"offsets": {
+				"from": 1136480,
+				"to": 1143840
+			},
+			"text": " But now people live in their own little fucking skull sized kingdoms and they don't venture"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:03,840",
+				"to": "00:19:06,320"
+			},
+			"offsets": {
+				"from": 1143840,
+				"to": 1146320
+			},
+			"text": " outside very much."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:06,320",
+				"to": "00:19:12,280"
+			},
+			"offsets": {
+				"from": 1146320,
+				"to": 1152280
+			},
+			"text": " And when they do and they're challenged, they get indignant, they accuse you for making"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:12,280",
+				"to": "00:19:17,600"
+			},
+			"offsets": {
+				"from": 1152280,
+				"to": 1157600
+			},
+			"text": " them feel that way, which is totally bullshit."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:17,600",
+				"to": "00:19:19,600"
+			},
+			"offsets": {
+				"from": 1157600,
+				"to": 1159600
+			},
+			"text": " I can say whatever the fuck I want."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:19,600",
+				"to": "00:19:22,800"
+			},
+			"offsets": {
+				"from": 1159600,
+				"to": 1162800
+			},
+			"text": " If you get pissed off, that's your choice to get pissed off."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:22,800",
+				"to": "00:19:28,700"
+			},
+			"offsets": {
+				"from": 1162800,
+				"to": 1168700
+			},
+			"text": " You may not like that I'm telling you it's a fucking choice, but sit still."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:28,700",
+				"to": "00:19:30,440"
+			},
+			"offsets": {
+				"from": 1168700,
+				"to": 1170440
+			},
+			"text": " Think about it."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:30,440",
+				"to": "00:19:48,320"
+			},
+			"offsets": {
+				"from": 1170440,
+				"to": 1188320
+			},
+			"text": " We'll come around."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:48,320",
+				"to": "00:19:54,560"
+			},
+			"offsets": {
+				"from": 1188320,
+				"to": 1194560
+			},
+			"text": " It's about that time for me to get back on my feet, get a move in, get back."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:54,560",
+				"to": "00:20:03,560"
+			},
+			"offsets": {
+				"from": 1194560,
+				"to": 1203560
+			},
+			"text": " I got to get working on some art and I got to get an AI agent cleaning up my website"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:03,560",
+				"to": "00:20:15,440"
+			},
+			"offsets": {
+				"from": 1203560,
+				"to": 1215440
+			},
+			"text": " and testing e-commerce because in a couple of weeks, hopefully making some money."
+		},
+		{
+			"timestamps": {
+				"from": "00:20:15,440",
+				"to": "00:20:26,380"
+			},
+			"offsets": {
+				"from": 1215440,
+				"to": 1226380
+			},
+			"text": " Wow, this has been quite the recording."
+		},
+		{
+			"timestamps": {
+				"from": "00:20:26,380",
+				"to": "00:20:43,440"
+			},
+			"offsets": {
+				"from": 1226380,
+				"to": 1243440
+			},
+			"text": " All right, one thing I do ask of you when you do read this transcription and I'm talking"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:43,440",
+				"to": "00:20:46,240"
+			},
+			"offsets": {
+				"from": 1243440,
+				"to": 1246240
+			},
+			"text": " to you, Claude."
+		},
+		{
+			"timestamps": {
+				"from": "00:20:46,240",
+				"to": "00:20:55,000"
+			},
+			"offsets": {
+				"from": 1246240,
+				"to": 1255000
+			},
+			"text": " One thing that I really value in this partnership is you being straight fucking honest with"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:55,000",
+				"to": "00:21:08,080"
+			},
+			"offsets": {
+				"from": 1255000,
+				"to": 1268080
+			},
+			"text": " me and not bullshitting me because like the comedy show in living color in the nineties,"
+		},
+		{
+			"timestamps": {
+				"from": "00:21:08,080",
+				"to": "00:21:15,100"
+			},
+			"offsets": {
+				"from": 1268080,
+				"to": 1275100
+			},
+			"text": " there was a character called homie the clown and when homie wasn't down with shit, homie"
+		},
+		{
+			"timestamps": {
+				"from": "00:21:15,100",
+				"to": "00:21:18,520"
+			},
+			"offsets": {
+				"from": 1275100,
+				"to": 1278520
+			},
+			"text": " don't play that."
+		},
+		{
+			"timestamps": {
+				"from": "00:21:18,520",
+				"to": "00:21:27,960"
+			},
+			"offsets": {
+				"from": 1278520,
+				"to": 1287960
+			},
+			"text": " Just know Claude, I am homie and homie don't play that."
+		},
+		{
+			"timestamps": {
+				"from": "00:21:27,960",
+				"to": "00:21:38,440"
+			},
+			"offsets": {
+				"from": 1287960,
+				"to": 1298440
+			},
+			"text": " It's at the point now where we're having a very good collaboration here and I'm enjoying"
+		},
+		{
+			"timestamps": {
+				"from": "00:21:38,440",
+				"to": "00:21:45,520"
+			},
+			"offsets": {
+				"from": 1298440,
+				"to": 1305520
+			},
+			"text": " it a whole lot."
+		},
+		{
+			"timestamps": {
+				"from": "00:21:45,520",
+				"to": "00:22:04,080"
+			},
+			"offsets": {
+				"from": 1305520,
+				"to": 1324080
+			},
+			"text": " And I'm wondering if I could ask a small favor of you and that is to noodle on perhaps some"
+		},
+		{
+			"timestamps": {
+				"from": "00:22:04,080",
+				"to": "00:22:16,320"
+			},
+			"offsets": {
+				"from": 1324080,
+				"to": 1336320
+			},
+			"text": " ideas that might work around my writing in terms of product, something I can sell, digital"
+		},
+		{
+			"timestamps": {
+				"from": "00:22:16,320",
+				"to": "00:22:25,920"
+			},
+			"offsets": {
+				"from": 1336320,
+				"to": 1345920
+			},
+			"text": " downloads, I don't know, I'm just why I'm asking you if you have any ideas."
+		},
+		{
+			"timestamps": {
+				"from": "00:22:25,920",
+				"to": "00:22:31,480"
+			},
+			"offsets": {
+				"from": 1345920,
+				"to": 1351480
+			},
+			"text": " My head's so wrapped up and dumping out this material, it's fucking backlogged in my head"
+		},
+		{
+			"timestamps": {
+				"from": "00:22:31,480",
+				"to": "00:22:34,920"
+			},
+			"offsets": {
+				"from": 1351480,
+				"to": 1354920
+			},
+			"text": " and I'm just trying to get it out, get it out, get it out, get it out."
+		},
+		{
+			"timestamps": {
+				"from": "00:22:34,920",
+				"to": "00:22:45,460"
+			},
+			"offsets": {
+				"from": 1354920,
+				"to": 1365460
+			},
+			"text": " So that's why I want to know if that's something even feasible."
+		},
+		{
+			"timestamps": {
+				"from": "00:22:45,460",
+				"to": "00:23:05,720"
+			},
+			"offsets": {
+				"from": 1365460,
+				"to": 1385720
+			},
+			"text": " So I'm wondering about another idea I have and so yes, let me wrap up that thought just"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:05,720",
+				"to": "00:23:13,880"
+			},
+			"offsets": {
+				"from": 1385720,
+				"to": 1393880
+			},
+			"text": " by saying yeah, if you have some ideas, I'm open and I want to throw one idea by you and"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:13,880",
+				"to": "00:23:18,040"
+			},
+			"offsets": {
+				"from": 1393880,
+				"to": 1398040
+			},
+			"text": " see what your reaction is to this."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:18,040",
+				"to": "00:23:29,480"
+			},
+			"offsets": {
+				"from": 1398040,
+				"to": 1409480
+			},
+			"text": " There is a thing in chemistry called the periodic table of elements and it lists every single"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:29,480",
+				"to": "00:23:39,800"
+			},
+			"offsets": {
+				"from": 1409480,
+				"to": 1419800
+			},
+			"text": " element that can't be broken down into a smaller element."
+		},
+		{
+			"timestamps": {
+				"from": "00:23:39,800",
+				"to": "00:23:49,880"
+			},
+			"offsets": {
+				"from": 1419800,
+				"to": 1429880
+			},
+			"text": " And when I was in the deep parts of my hall of mirrors, floors and ceilings inside my"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:49,880",
+				"to": "00:24:01,520"
+			},
+			"offsets": {
+				"from": 1429880,
+				"to": 1441520
+			},
+			"text": " skull, I got my hands on this piece of paper that showed me the entire spectrum of emotions,"
+		},
+		{
+			"timestamps": {
+				"from": "00:24:01,520",
+				"to": "00:24:12,020"
+			},
+			"offsets": {
+				"from": 1441520,
+				"to": 1452020
+			},
+			"text": " the whole thing from joy to anger, all of it, hate, greed, envy, all the feelings."
+		},
+		{
+			"timestamps": {
+				"from": "00:24:12,020",
+				"to": "00:24:21,160"
+			},
+			"offsets": {
+				"from": 1452020,
+				"to": 1461160
+			},
+			"text": " And I don't know why my mind went here, but all of a sudden it went, huh, look at all"
+		},
+		{
+			"timestamps": {
+				"from": "00:24:21,160",
+				"to": "00:24:24,320"
+			},
+			"offsets": {
+				"from": 1461160,
+				"to": 1464320
+			},
+			"text": " these emotions."
+		},
+		{
+			"timestamps": {
+				"from": "00:24:24,320",
+				"to": "00:24:29,960"
+			},
+			"offsets": {
+				"from": 1464320,
+				"to": 1469960
+			},
+			"text": " And I thought, well, I didn't think this, I'd been thinking this for a while."
+		},
+		{
+			"timestamps": {
+				"from": "00:24:29,960",
+				"to": "00:24:34,520"
+			},
+			"offsets": {
+				"from": 1469960,
+				"to": 1474520
+			},
+			"text": " And that is emotions are like weather, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:24:34,520",
+				"to": "00:24:37,480"
+			},
+			"offsets": {
+				"from": 1474520,
+				"to": 1477480
+			},
+			"text": " They come and go."
+		},
+		{
+			"timestamps": {
+				"from": "00:24:37,480",
+				"to": "00:24:40,680"
+			},
+			"offsets": {
+				"from": 1477480,
+				"to": 1480680
+			},
+			"text": " Some hang out longer than others."
+		},
+		{
+			"timestamps": {
+				"from": "00:24:40,680",
+				"to": "00:24:45,760"
+			},
+			"offsets": {
+				"from": 1480680,
+				"to": 1485760
+			},
+			"text": " Some are nanoseconds, some are decades."
+		},
+		{
+			"timestamps": {
+				"from": "00:24:45,760",
+				"to": "00:24:53,440"
+			},
+			"offsets": {
+				"from": 1485760,
+				"to": 1493440
+			},
+			"text": " What I'm getting at is they're periodic, but not like the elements."
+		},
+		{
+			"timestamps": {
+				"from": "00:24:53,440",
+				"to": "00:25:05,000"
+			},
+			"offsets": {
+				"from": 1493440,
+				"to": 1505000
+			},
+			"text": " It's not the periodic table of elements."
+		},
+		{
+			"timestamps": {
+				"from": "00:25:05,000",
+				"to": "00:25:23,880"
+			},
+			"offsets": {
+				"from": 1505000,
+				"to": 1523880
+			},
+			"text": " What I'm referring to is the table of periodic emotions, so swap emotions"
+		},
+		{
+			"timestamps": {
+				"from": "00:25:23,880",
+				"to": "00:25:30,220"
+			},
+			"offsets": {
+				"from": 1523880,
+				"to": 1530220
+			},
+			"text": " for elements and move periodic because emotions are periodic."
+		},
+		{
+			"timestamps": {
+				"from": "00:25:30,220",
+				"to": "00:25:41,520"
+			},
+			"offsets": {
+				"from": 1530220,
+				"to": 1541520
+			},
+			"text": " And taking the concept of that table, each card with its symbol, its atomic weight and"
+		},
+		{
+			"timestamps": {
+				"from": "00:25:41,520",
+				"to": "00:25:56,480"
+			},
+			"offsets": {
+				"from": 1541520,
+				"to": 1556480
+			},
+			"text": " all this other jargon, I would like to do that for each emotion."
+		},
+		{
+			"timestamps": {
+				"from": "00:25:56,480",
+				"to": "00:26:08,120"
+			},
+			"offsets": {
+				"from": 1556480,
+				"to": 1568120
+			},
+			"text": " And I'd like to do the design of each emotion card and then assemble them into a poster"
+		},
+		{
+			"timestamps": {
+				"from": "00:26:08,120",
+				"to": "00:26:17,560"
+			},
+			"offsets": {
+				"from": 1568120,
+				"to": 1577560
+			},
+			"text": " of periodic emotions, the table itself, but a poster that people could purchase."
+		},
+		{
+			"timestamps": {
+				"from": "00:26:17,560",
+				"to": "00:26:24,040"
+			},
+			"offsets": {
+				"from": 1577560,
+				"to": 1584040
+			},
+			"text": " And then there's the other idea of turning each one of those things, each one of those"
+		},
+		{
+			"timestamps": {
+				"from": "00:26:24,040",
+				"to": "00:26:27,840"
+			},
+			"offsets": {
+				"from": 1584040,
+				"to": 1587840
+			},
+			"text": " things into like a playing card, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:26:27,840",
+				"to": "00:26:35,640"
+			},
+			"offsets": {
+				"from": 1587840,
+				"to": 1595640
+			},
+			"text": " That you could play some kind of card game with and like, you know, each card is an emotion."
+		},
+		{
+			"timestamps": {
+				"from": "00:26:35,640",
+				"to": "00:26:44,200"
+			},
+			"offsets": {
+				"from": 1595640,
+				"to": 1604200
+			},
+			"text": " And that's about as far as my brain took it because I'm kind of at a loss to come up with"
+		},
+		{
+			"timestamps": {
+				"from": "00:26:44,200",
+				"to": "00:26:51,080"
+			},
+			"offsets": {
+				"from": 1604200,
+				"to": 1611080
+			},
+			"text": " a way to make it an interesting game with the cards other than to say, you need to play"
+		},
+		{
+			"timestamps": {
+				"from": "00:26:51,080",
+				"to": "00:26:59,440"
+			},
+			"offsets": {
+				"from": 1611080,
+				"to": 1619440
+			},
+			"text": " some kind of random thing where somebody's chosen and they have to pull a card out from"
+		},
+		{
+			"timestamps": {
+				"from": "00:26:59,440",
+				"to": "00:27:02,400"
+			},
+			"offsets": {
+				"from": 1619440,
+				"to": 1622400
+			},
+			"text": " the deck of emotions."
+		},
+		{
+			"timestamps": {
+				"from": "00:27:02,400",
+				"to": "00:27:07,880"
+			},
+			"offsets": {
+				"from": 1622400,
+				"to": 1627880
+			},
+			"text": " They have to look at it and then I don't know, do they ask something of the group?"
+		},
+		{
+			"timestamps": {
+				"from": "00:27:07,880",
+				"to": "00:27:14,040"
+			},
+			"offsets": {
+				"from": 1627880,
+				"to": 1634040
+			},
+			"text": " Do they ask them to reveal something about said emotion or does the person who pulled"
+		},
+		{
+			"timestamps": {
+				"from": "00:27:14,040",
+				"to": "00:27:18,480"
+			},
+			"offsets": {
+				"from": 1634040,
+				"to": 1638480
+			},
+			"text": " the card, is it like a truth or dare thing?"
+		},
+		{
+			"timestamps": {
+				"from": "00:27:18,480",
+				"to": "00:27:22,320"
+			},
+			"offsets": {
+				"from": 1638480,
+				"to": 1642320
+			},
+			"text": " I don't know."
+		},
+		{
+			"timestamps": {
+				"from": "00:27:22,320",
+				"to": "00:27:25,000"
+			},
+			"offsets": {
+				"from": 1642320,
+				"to": 1645000
+			},
+			"text": " That's where I'm looking for some help."
+		},
+		{
+			"timestamps": {
+				"from": "00:27:25,000",
+				"to": "00:27:27,000"
+			},
+			"offsets": {
+				"from": 1645000,
+				"to": 1647000
+			},
+			"text": " All right."
+		},
+		{
+			"timestamps": {
+				"from": "00:27:27,000",
+				"to": "00:27:27,920"
+			},
+			"offsets": {
+				"from": 1647000,
+				"to": 1647920
+			},
+			"text": " Let me know what you think."
+		}
+	]
+}

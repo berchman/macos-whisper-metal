@@ -1,0 +1,1176 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/bertm/_00_GIT_MASTER/00_TAWK2TEXT/_models/ggml-medium.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:10,460"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 10460
+			},
+			"text": " \"Interesting question showed up this morning."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,460",
+				"to": "00:00:23,360"
+			},
+			"offsets": {
+				"from": 10460,
+				"to": 23360
+			},
+			"text": " What does it feel like to imagine the person you truly want to become?\""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,360",
+				"to": "00:00:53,040"
+			},
+			"offsets": {
+				"from": 23360,
+				"to": 53040
+			},
+			"text": " \"It feels like I'm taking whatever I imagine"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:53,040",
+				"to": "00:01:00,200"
+			},
+			"offsets": {
+				"from": 53040,
+				"to": 60200
+			},
+			"text": " and putting it out somewhere into the future, like someday."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:00,200",
+				"to": "00:01:03,120"
+			},
+			"offsets": {
+				"from": 60200,
+				"to": 63120
+			},
+			"text": " That day that never comes."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:03,120",
+				"to": "00:01:21,100"
+			},
+			"offsets": {
+				"from": 63120,
+				"to": 81100
+			},
+			"text": " And to feel what it is to imagine something I truly want to become is a bit of a conundrum,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:21,100",
+				"to": "00:01:27,400"
+			},
+			"offsets": {
+				"from": 81100,
+				"to": 87400
+			},
+			"text": " at least the way I'm breaking it down when I'm thinking about this slowly."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:27,400",
+				"to": "00:01:33,120"
+			},
+			"offsets": {
+				"from": 87400,
+				"to": 93120
+			},
+			"text": " Because I can just knee-jerk reaction this question, you know, and say, \"What does it"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:33,120",
+				"to": "00:01:36,400"
+			},
+			"offsets": {
+				"from": 93120,
+				"to": 96400
+			},
+			"text": " feel like to imagine the person you truly want to become?\""
+		},
+		{
+			"timestamps": {
+				"from": "00:01:36,400",
+				"to": "00:01:47,480"
+			},
+			"offsets": {
+				"from": 96400,
+				"to": 107480
+			},
+			"text": " \"Oh, I feel a bit excited, a bit fearful, like fear, excitement, and blah, blah, blah.\""
+		},
+		{
+			"timestamps": {
+				"from": "00:01:47,480",
+				"to": "00:01:53,840"
+			},
+			"offsets": {
+				"from": 107480,
+				"to": 113840
+			},
+			"text": " You know, it's all very, I don't know, it's of the moment."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:53,840",
+				"to": "00:01:57,680"
+			},
+			"offsets": {
+				"from": 113840,
+				"to": 117680
+			},
+			"text": " It's not really reflection in a way."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:57,680",
+				"to": "00:02:05,520"
+			},
+			"offsets": {
+				"from": 117680,
+				"to": 125520
+			},
+			"text": " And for some reason, this question just made me, I don't know if it's tap the brakes or"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:05,520",
+				"to": "00:02:10,800"
+			},
+			"offsets": {
+				"from": 125520,
+				"to": 130800
+			},
+			"text": " just totally come to a stop and go, \"Okay, we're going to read this one word at a time."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:10,800",
+				"to": "00:02:13,680"
+			},
+			"offsets": {
+				"from": 130800,
+				"to": 133680
+			},
+			"text": " What does it feel like?\""
+		},
+		{
+			"timestamps": {
+				"from": "00:02:13,680",
+				"to": "00:02:18,600"
+			},
+			"offsets": {
+				"from": 133680,
+				"to": 138600
+			},
+			"text": " So we're asking, \"What's this feeling?\""
+		},
+		{
+			"timestamps": {
+				"from": "00:02:18,600",
+				"to": "00:02:22,240"
+			},
+			"offsets": {
+				"from": 138600,
+				"to": 142240
+			},
+			"text": " And feeling is a body thing, not a thinking thing."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:22,240",
+				"to": "00:02:26,000"
+			},
+			"offsets": {
+				"from": 142240,
+				"to": 146000
+			},
+			"text": " So right there, that kind of throws me off."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:26,000",
+				"to": "00:02:39,640"
+			},
+			"offsets": {
+				"from": 146000,
+				"to": 159640
+			},
+			"text": " Because I have for 90, greater than 98% of the 56 years I've lived has been spent in"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:39,640",
+				"to": "00:02:47,680"
+			},
+			"offsets": {
+				"from": 159640,
+				"to": 167680
+			},
+			"text": " my head, very little time spent in my heart or in my body, more somatic in nature."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:47,680",
+				"to": "00:02:56,120"
+			},
+			"offsets": {
+				"from": 167680,
+				"to": 176120
+			},
+			"text": " So when the question leads with, \"What does it feel like?\""
+		},
+		{
+			"timestamps": {
+				"from": "00:02:56,120",
+				"to": "00:03:00,840"
+			},
+			"offsets": {
+				"from": 176120,
+				"to": 180840
+			},
+			"text": " My knee-jerk is to think of a feeling."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:00,840",
+				"to": "00:03:10,520"
+			},
+			"offsets": {
+				"from": 180840,
+				"to": 190520
+			},
+			"text": " When I'm slowing down, I'm suddenly searching my body for a feeling."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:10,520",
+				"to": "00:03:19,800"
+			},
+			"offsets": {
+				"from": 190520,
+				"to": 199800
+			},
+			"text": " So what does it feel like to imagine, \"Okay, so now you're asking me to use my head."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:19,800",
+				"to": "00:03:25,000"
+			},
+			"offsets": {
+				"from": 199800,
+				"to": 205000
+			},
+			"text": " So what does it feel like in my body?\""
+		},
+		{
+			"timestamps": {
+				"from": "00:03:25,000",
+				"to": "00:03:31,160"
+			},
+			"offsets": {
+				"from": 205000,
+				"to": 211160
+			},
+			"text": " Not what does it feel like when I think about this, what feeling comes to inside my head"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:31,160",
+				"to": "00:03:37,640"
+			},
+			"offsets": {
+				"from": 211160,
+				"to": 217640
+			},
+			"text": " when I imagine the person I truly want to become."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:37,640",
+				"to": "00:03:46,840"
+			},
+			"offsets": {
+				"from": 217640,
+				"to": 226840
+			},
+			"text": " So the question is basically saying you are not that person right now when you stop and"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:46,840",
+				"to": "00:03:48,240"
+			},
+			"offsets": {
+				"from": 226840,
+				"to": 228240
+			},
+			"text": " think about it."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:48,240",
+				"to": "00:03:54,960"
+			},
+			"offsets": {
+				"from": 228240,
+				"to": 234960
+			},
+			"text": " Because if you're imagining the person you truly want to become, right now you are not"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:54,960",
+				"to": "00:04:05,160"
+			},
+			"offsets": {
+				"from": 234960,
+				"to": 245160
+			},
+			"text": " that person, at least the way this question reads."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:05,160",
+				"to": "00:04:16,600"
+			},
+			"offsets": {
+				"from": 245160,
+				"to": 256600
+			},
+			"text": " So in some sense, what this question is doing is asking you to imagine what it feels like"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:16,600",
+				"to": "00:04:24,440"
+			},
+			"offsets": {
+				"from": 256600,
+				"to": 264440
+			},
+			"text": " to be something you're not right now in this moment."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:24,440",
+				"to": "00:04:31,040"
+			},
+			"offsets": {
+				"from": 264440,
+				"to": 271040
+			},
+			"text": " What does it feel like to imagine the person you truly want to become?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:31,040",
+				"to": "00:04:34,280"
+			},
+			"offsets": {
+				"from": 271040,
+				"to": 274280
+			},
+			"text": " Because in this moment, you are not that person."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:34,280",
+				"to": "00:04:39,000"
+			},
+			"offsets": {
+				"from": 274280,
+				"to": 279000
+			},
+			"text": " I forgot to finish the question."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:39,000",
+				"to": "00:04:51,320"
+			},
+			"offsets": {
+				"from": 279000,
+				"to": 291320
+			},
+			"text": " So yeah, it's kind of a weird breakdown of this, but when I go through it the way that"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:51,320",
+				"to": "00:04:59,720"
+			},
+			"offsets": {
+				"from": 291320,
+				"to": 299720
+			},
+			"text": " I'm breaking it down and I'm going to do it backwards, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:59,720",
+				"to": "00:05:05,200"
+			},
+			"offsets": {
+				"from": 299720,
+				"to": 305200
+			},
+			"text": " So instead of what does it feel, what does it feel like, I'm going to start with the"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:05,200",
+				"to": "00:05:13,240"
+			},
+			"offsets": {
+				"from": 305200,
+				"to": 313240
+			},
+			"text": " person you truly want to become."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:13,240",
+				"to": "00:05:27,080"
+			},
+			"offsets": {
+				"from": 313240,
+				"to": 327080
+			},
+			"text": " I would submit that I am not becoming."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:27,080",
+				"to": "00:05:41,080"
+			},
+			"offsets": {
+				"from": 327080,
+				"to": 341080
+			},
+			"text": " I submit that I am in a continual state of being, of existing, because I can only be"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:41,080",
+				"to": "00:05:45,000"
+			},
+			"offsets": {
+				"from": 341080,
+				"to": 345000
+			},
+			"text": " in this moment."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:45,000",
+				"to": "00:05:49,280"
+			},
+			"offsets": {
+				"from": 345000,
+				"to": 349280
+			},
+			"text": " Any other place is time travel."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:49,280",
+				"to": "00:05:55,480"
+			},
+			"offsets": {
+				"from": 349280,
+				"to": 355480
+			},
+			"text": " Think of the future, imagine the future, you are time traveling to the future."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:55,480",
+				"to": "00:06:02,360"
+			},
+			"offsets": {
+				"from": 355480,
+				"to": 362360
+			},
+			"text": " Your brain isn't here in this moment, right now, your brain is in the future, thinking"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:02,360",
+				"to": "00:06:07,160"
+			},
+			"offsets": {
+				"from": 362360,
+				"to": 367160
+			},
+			"text": " about something that hasn't happened yet, which in most cases is people freaking out"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:07,160",
+				"to": "00:06:16,280"
+			},
+			"offsets": {
+				"from": 367160,
+				"to": 376280
+			},
+			"text": " and having fear about something, imagining something that hasn't even happened yet."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:16,280",
+				"to": "00:06:24,120"
+			},
+			"offsets": {
+				"from": 376280,
+				"to": 384120
+			},
+			"text": " The old Burt would say, you know what, we need to think about all the 75 million possible"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:24,120",
+				"to": "00:06:28,320"
+			},
+			"offsets": {
+				"from": 384120,
+				"to": 388320
+			},
+			"text": " bad things that can happen just so we're ready."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:28,320",
+				"to": "00:06:30,360"
+			},
+			"offsets": {
+				"from": 388320,
+				"to": 390360
+			},
+			"text": " That's old Burt."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:30,360",
+				"to": "00:06:38,520"
+			},
+			"offsets": {
+				"from": 390360,
+				"to": 398520
+			},
+			"text": " You know, I'm just being in the moment and whatever shows up, shows up."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:38,520",
+				"to": "00:06:54,000"
+			},
+			"offsets": {
+				"from": 398520,
+				"to": 414000
+			},
+			"text": " And I go forward in that moment with what I know, where I am, and what resources I have"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:54,000",
+				"to": "00:07:00,040"
+			},
+			"offsets": {
+				"from": 414000,
+				"to": 420040
+			},
+			"text": " at my disposal and what level of agency I have over myself."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:00,040",
+				"to": "00:07:07,480"
+			},
+			"offsets": {
+				"from": 420040,
+				"to": 427480
+			},
+			"text": " So what does it feel like to imagine the person you truly want to become?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:07,480",
+				"to": "00:07:26,520"
+			},
+			"offsets": {
+				"from": 427480,
+				"to": 446520
+			},
+			"text": " I submit that I am that person and I am always in the becoming because time is moving forward"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:26,520",
+				"to": "00:07:33,240"
+			},
+			"offsets": {
+				"from": 446520,
+				"to": 453240
+			},
+			"text": " and now moves forward linearly through time."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:33,240",
+				"to": "00:07:45,120"
+			},
+			"offsets": {
+				"from": 453240,
+				"to": 465120
+			},
+			"text": " So if I am a sentient being who is conscious, I am being brought through time in a line"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:45,120",
+				"to": "00:07:58,960"
+			},
+			"offsets": {
+				"from": 465120,
+				"to": 478960
+			},
+			"text": " and I cannot escape that until I cease to exist in this form as Burt, then I don't"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:58,960",
+				"to": "00:08:00,200"
+			},
+			"offsets": {
+				"from": 478960,
+				"to": 480200
+			},
+			"text": " know what happens."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:00,200",
+				"to": "00:08:10,800"
+			},
+			"offsets": {
+				"from": 480200,
+				"to": 490800
+			},
+			"text": " You can go online and read all kinds of shit about people who have had the near death experiences"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:10,800",
+				"to": "00:08:17,120"
+			},
+			"offsets": {
+				"from": 490800,
+				"to": 497120
+			},
+			"text": " and there's a lot of similarity among the stories just like the, you know, alien abductee"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:17,120",
+				"to": "00:08:18,120"
+			},
+			"offsets": {
+				"from": 497120,
+				"to": 498120
+			},
+			"text": " people."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:18,120",
+				"to": "00:08:19,120"
+			},
+			"offsets": {
+				"from": 498120,
+				"to": 499120
+			},
+			"text": " Yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:19,120",
+				"to": "00:08:25,560"
+			},
+			"offsets": {
+				"from": 499120,
+				"to": 505560
+			},
+			"text": " It's just a lot of weird shit."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:25,560",
+				"to": "00:08:32,320"
+			},
+			"offsets": {
+				"from": 505560,
+				"to": 512320
+			},
+			"text": " And what was cool was before the internet, you didn't know about most of this shit."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:32,320",
+				"to": "00:08:39,520"
+			},
+			"offsets": {
+				"from": 512320,
+				"to": 519520
+			},
+			"text": " It was basically out of sight, out of mind, or better yet, let's go Donnie Rumsfeld and"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:39,520",
+				"to": "00:08:45,040"
+			},
+			"offsets": {
+				"from": 519520,
+				"to": 525040
+			},
+			"text": " say it was things I didn't know that I didn't know."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:45,040",
+				"to": "00:08:50,040"
+			},
+			"offsets": {
+				"from": 525040,
+				"to": 530040
+			},
+			"text": " It's just like not even in your head or in your imagination."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:50,040",
+				"to": "00:09:14,960"
+			},
+			"offsets": {
+				"from": 530040,
+				"to": 554960
+			},
+			"text": " So when I imagine who I am being in this moment in preparation for the next moment, I am now"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:14,960",
+				"to": "00:09:22,700"
+			},
+			"offsets": {
+				"from": 554960,
+				"to": 562700
+			},
+			"text": " in this moment feeling okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:22,700",
+				"to": "00:09:28,880"
+			},
+			"offsets": {
+				"from": 562700,
+				"to": 568880
+			},
+			"text": " I'm not feeling poor or fair or moderate."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:28,880",
+				"to": "00:09:40,740"
+			},
+			"offsets": {
+				"from": 568880,
+				"to": 580740
+			},
+			"text": " I'm feeling okay, which metaphorically means my head is above the water, but my arms and"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:40,740",
+				"to": "00:09:47,740"
+			},
+			"offsets": {
+				"from": 580740,
+				"to": 587740
+			},
+			"text": " legs are underneath the water treading calmly, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:47,740",
+				"to": "00:09:54,280"
+			},
+			"offsets": {
+				"from": 587740,
+				"to": 594280
+			},
+			"text": " But I'm working to keep my head above the water."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:54,280",
+				"to": "00:10:09,600"
+			},
+			"offsets": {
+				"from": 594280,
+				"to": 609600
+			},
+			"text": " So I'm in that process of just, yeah, basically just treading water until I get a leg up to"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:09,600",
+				"to": "00:10:24,880"
+			},
+			"offsets": {
+				"from": 609600,
+				"to": 624880
+			},
+			"text": " get out of the water and start plugging back into the world."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:24,880",
+				"to": "00:10:38,040"
+			},
+			"offsets": {
+				"from": 624880,
+				"to": 638040
+			},
+			"text": " So in my breakdown of this question, what would be powerful is if in this continual"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:38,040",
+				"to": "00:10:49,040"
+			},
+			"offsets": {
+				"from": 638040,
+				"to": 649040
+			},
+			"text": " moment of being, I were able to take my faculties, my energy, my frequency, and pour it into"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:49,040",
+				"to": "00:10:59,840"
+			},
+			"offsets": {
+				"from": 649040,
+				"to": 659840
+			},
+			"text": " projects that help people in some way, connect to others, connect to themselves, connect"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:59,840",
+				"to": "00:11:05,560"
+			},
+			"offsets": {
+				"from": 659840,
+				"to": 665560
+			},
+			"text": " to their family, connect to the world, it gets them out of their head, gets them out"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:05,560",
+				"to": "00:11:14,320"
+			},
+			"offsets": {
+				"from": 665560,
+				"to": 674320
+			},
+			"text": " of their bubble, gets them out from under the bridge, gets them out of their basement,"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:14,320",
+				"to": "00:11:21,320"
+			},
+			"offsets": {
+				"from": 674320,
+				"to": 681320
+			},
+			"text": " gets them out of the attic, actually gets them out and interacting with another human"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:21,320",
+				"to": "00:11:28,880"
+			},
+			"offsets": {
+				"from": 681320,
+				"to": 688880
+			},
+			"text": " being."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:28,880",
+				"to": "00:11:47,600"
+			},
+			"offsets": {
+				"from": 688880,
+				"to": 707600
+			},
+			"text": " I was ready to call this whole thing quits more than once in the past three years."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:47,600",
+				"to": "00:11:51,320"
+			},
+			"offsets": {
+				"from": 707600,
+				"to": 711320
+			},
+			"text": " And I stuck it out."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:51,320",
+				"to": "00:12:00,280"
+			},
+			"offsets": {
+				"from": 711320,
+				"to": 720280
+			},
+			"text": " And always being in this moment, there are times I have no idea where I will be on this"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:00,280",
+				"to": "00:12:12,000"
+			},
+			"offsets": {
+				"from": 720280,
+				"to": 732000
+			},
+			"text": " timeline, you know, a day, 10 days, a year from now, because I can only be in this moment."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:12,000",
+				"to": "00:12:18,120"
+			},
+			"offsets": {
+				"from": 732000,
+				"to": 738120
+			},
+			"text": " But the things I do in this moment determine where I show up on that timeline."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:18,120",
+				"to": "00:12:22,220"
+			},
+			"offsets": {
+				"from": 738120,
+				"to": 742220
+			},
+			"text": " The timeline's gonna happen, I'm moving through it, you're moving through it, we're all moving"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:22,220",
+				"to": "00:12:23,640"
+			},
+			"offsets": {
+				"from": 742220,
+				"to": 743640
+			},
+			"text": " through it."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:23,640",
+				"to": "00:12:30,080"
+			},
+			"offsets": {
+				"from": 743640,
+				"to": 750080
+			},
+			"text": " But where you end up and how you end up there is all based on the now."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:30,080",
+				"to": "00:12:40,560"
+			},
+			"offsets": {
+				"from": 750080,
+				"to": 760560
+			},
+			"text": " What are you doing right now with your resources, your agency, your energy, your frequency,"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:40,560",
+				"to": "00:12:50,000"
+			},
+			"offsets": {
+				"from": 760560,
+				"to": 770000
+			},
+			"text": " and your abilities, I guess that's the more important question to be asking is what does"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:50,000",
+				"to": "00:12:59,900"
+			},
+			"offsets": {
+				"from": 770000,
+				"to": 779900
+			},
+			"text": " it feel like to think about all those things in this moment?"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:59,900",
+				"to": "00:13:02,440"
+			},
+			"offsets": {
+				"from": 779900,
+				"to": 782440
+			},
+			"text": " Does it cause dread?"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:02,440",
+				"to": "00:13:10,440"
+			},
+			"offsets": {
+				"from": 782440,
+				"to": 790440
+			},
+			"text": " Does it make you feel possibility, opportunity?"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:10,440",
+				"to": "00:13:12,580"
+			},
+			"offsets": {
+				"from": 790440,
+				"to": 792580
+			},
+			"text": " Does it feel overwhelmed?"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:12,580",
+				"to": "00:13:15,540"
+			},
+			"offsets": {
+				"from": 792580,
+				"to": 795540
+			},
+			"text": " Does it make you shake inside?"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:15,540",
+				"to": "00:13:19,200"
+			},
+			"offsets": {
+				"from": 795540,
+				"to": 799200
+			},
+			"text": " Does it make you want to run and hide?"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:19,200",
+				"to": "00:13:29,520"
+			},
+			"offsets": {
+				"from": 799200,
+				"to": 809520
+			},
+			"text": " I guess that's me flipping the question back on itself after doing all this jabbering."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:29,520",
+				"to": "00:13:31,880"
+			},
+			"offsets": {
+				"from": 809520,
+				"to": 811880
+			},
+			"text": " I think I'll end it there for now."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:31,880",
+				"to": "00:13:38,640"
+			},
+			"offsets": {
+				"from": 811880,
+				"to": 818640
+			},
+			"text": " I got a lot of shit to do, I need to make some money."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:38,640",
+				"to": "00:13:42,640"
+			},
+			"offsets": {
+				"from": 818640,
+				"to": 822640
+			},
+			"text": " Okay, peace out, be well."
+		}
+	]
+}

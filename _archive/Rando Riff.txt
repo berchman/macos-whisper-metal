@@ -1,0 +1,20 @@
+(wind blowing) The only reason I'm qualified to give this message to you is because of my experience. Hey, my name's Burt. I have been involved in technology since 1992. And what?
+
+(Burt chuckles) I've been in technology since 1992, and I can tell you this. What I saw back then is the same thing that's happening now with AI. We have about five years until everything really changes hard. It's going to take about that long for it to really saturate our systems. So if you are not on the AI train yet, now is the time. It is just like 1998 before the dot-com bust of '99. Everybody's investing. Everybody's going gangbusters. But within eight years of that, 'cause it took a little longer, you had social media and smartphones, and then the whole fucking world is different after that. (Burt sniffles)
+
+(birds chirping) My message is this. History is repeating itself, tuk-tuk, logically. (Burt sniffles) And, what
+
+you need to do is be able to anticipate the shift as best you can. And by that, I do something which I call future-proofing. And by future-proofing, what do I mean? I'm not a fucking swami, so I can't read a crystal ball and tell you what is literally going to happen. But I can say this. If you look at the technology at your disposal at any given moment,
+
+and you know what things have connect, you can connect and what things you can't. And within those things, you kind of know what's coming next, right? Every technology has a, oh, new version coming, right? Back in the early days of the web, it was easy to keep track of things because there wasn't that many things moving. There was, you know,
+
+if there was 100 things, I'd be surprised. It's literally millions of small companies now changing the earth. And the acceleration of change is, hasn't even hit everybody yet. I see it because I work with the AI every day, you know? (wind blowing) I see what it does every day. And I've used it for enough years now that I see the progress it's made just during my time of using it, let alone how far it's come since it's been in the commercial space, like just for people to use. And now that I am using it in pretty much all facets of my work. And since I'm using it at that level now, I see just how valuable and indispensable it is. And I'm finding myself to be someone who is at an interesting point in AI adoption. I am someone well-versed in the technology. Because of my experience, basically know what to look out for, what to prepare for, kind of where things are gonna go. I do have a general sense. You know, 100,000 foot view, what's probably gonna roll out or what will happen, who the players are, who the specifics, no fucking clue. But I'm pretty sure certain things will happen. It's kind of like reading the tea leaves from a million feet in the sky. It's, I guess, an intuition thing. And there's one aspect of having that kind of intuition, and it's basically never let me down. And there have been big times during my life where I have doubted it, and you know, doubted my intuition.
+
+And I either missed out or paid for it. So I get all kinds of reminders all the time. Trust your intuition, trust your intuition. So Newbert intuition is a big part of my scheme. My structure, my backbone infrastructure,
+
+which I'm gonna call it, okay, I'm tired. That's the end of this recording. I think I got something here worth writing about.
+
+[[TRANSCRIBE_FOOTER_START]]
+Word count: 629
+Transcribed locally with whisper.cpp (Metal). More info: https://github.com/berchman/macos-whisper-metal
+[[TRANSCRIBE_FOOTER_END]]

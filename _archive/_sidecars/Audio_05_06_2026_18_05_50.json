@@ -1,0 +1,1319 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "medium",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/bertm/_00_GIT_MASTER/00_TAWK2TEXT/_models/ggml-medium.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:20,820"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 20820
+			},
+			"text": " As I was saying before I got dragged away on another tangent and I do realize when laughing"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,820",
+				"to": "00:00:28,920"
+			},
+			"offsets": {
+				"from": 20820,
+				"to": 28920
+			},
+			"text": " I am making light of something that is obviously heavy for someone right now on this planet"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,920",
+				"to": "00:00:42,360"
+			},
+			"offsets": {
+				"from": 28920,
+				"to": 42360
+			},
+			"text": " and I get that and it fluctuates you know it's like weather for example where I'm at"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:42,360",
+				"to": "00:00:53,480"
+			},
+			"offsets": {
+				"from": 42360,
+				"to": 53480
+			},
+			"text": " today is very rainy the air is cold and wet and it's a unique kind of day but it's chances"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:53,480",
+				"to": "00:01:00,280"
+			},
+			"offsets": {
+				"from": 53480,
+				"to": 60280
+			},
+			"text": " are it's not going to be like this tomorrow same thing for yourself you know you're having"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:00,280",
+				"to": "00:01:12,560"
+			},
+			"offsets": {
+				"from": 60280,
+				"to": 72560
+			},
+			"text": " a shit day blah blah blah you know what tomorrow is another day and today may not have gone"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:12,560",
+				"to": "00:01:25,200"
+			},
+			"offsets": {
+				"from": 72560,
+				"to": 85200
+			},
+			"text": " the way you wanted it to however must be grateful for what you have where you are in any given"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:25,200",
+				"to": "00:01:36,040"
+			},
+			"offsets": {
+				"from": 85200,
+				"to": 96040
+			},
+			"text": " moment people do a lot of time traveling thinking about the future and worrying about shit that"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:36,040",
+				"to": "00:01:45,480"
+			},
+			"offsets": {
+				"from": 96040,
+				"to": 105480
+			},
+			"text": " might not ever happen and run themselves ragged I know I did it hardcore since I was maybe"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:45,480",
+				"to": "00:01:56,120"
+			},
+			"offsets": {
+				"from": 105480,
+				"to": 116120
+			},
+			"text": " first grade kindergarten first grade yeah and the anxiety is no bueno but where the"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:56,120",
+				"to": "00:02:04,680"
+			},
+			"offsets": {
+				"from": 116120,
+				"to": 124680
+			},
+			"text": " hell was I going with this waking up in the morning and the behavior so I woke up this"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:04,680",
+				"to": "00:02:16,400"
+			},
+			"offsets": {
+				"from": 124680,
+				"to": 136400
+			},
+			"text": " morning and going about my day I had a 35 foot long list of shit to get done and going"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:16,400",
+				"to": "00:02:26,960"
+			},
+			"offsets": {
+				"from": 136400,
+				"to": 146960
+			},
+			"text": " about my business and I read something that just for whatever reason which when I do reflect"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:26,960",
+				"to": "00:02:35,720"
+			},
+			"offsets": {
+				"from": 146960,
+				"to": 155720
+			},
+			"text": " on it it is clear to me why it triggered me but this specific thing is not the focus of"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:35,720",
+				"to": "00:02:46,680"
+			},
+			"offsets": {
+				"from": 155720,
+				"to": 166680
+			},
+			"text": " why I'm sharing this it's more about the behavior and so again going about your business there"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:46,680",
+				"to": "00:02:55,160"
+			},
+			"offsets": {
+				"from": 166680,
+				"to": 175160
+			},
+			"text": " is a trigger that I run into a stimulus a trigger and then there is the response reaction"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:55,160",
+				"to": "00:03:14,400"
+			},
+			"offsets": {
+				"from": 175160,
+				"to": 194400
+			},
+			"text": " side of things and I didn't feel the pause I just went right into reactive and reactive"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:14,400",
+				"to": "00:03:31,080"
+			},
+			"offsets": {
+				"from": 194400,
+				"to": 211080
+			},
+			"text": " was a typical story a fiction a manufactured scenario that is all inside my head none of"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:31,080",
+				"to": "00:03:49,280"
+			},
+			"offsets": {
+				"from": 211080,
+				"to": 229280
+			},
+			"text": " its true it's as real as a doctor Sue story and I'm not discounting their anyway I don't"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:49,280",
+				"to": "00:04:05,520"
+			},
+			"offsets": {
+				"from": 229280,
+				"to": 245520
+			},
+			"text": " know what the fuck I'm saying there point being I had a trigger and a response without"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:05,520",
+				"to": "00:04:16,880"
+			},
+			"offsets": {
+				"from": 245520,
+				"to": 256880
+			},
+			"text": " any pause in it and it took me down a very typical worn path and this is a path mind"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:16,880",
+				"to": "00:04:28,080"
+			},
+			"offsets": {
+				"from": 256880,
+				"to": 268080
+			},
+			"text": " you I have done my whole life like I mentioned earlier this is something that I could insert"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:28,080",
+				"to": "00:04:38,520"
+			},
+			"offsets": {
+				"from": 268080,
+				"to": 278520
+			},
+			"text": " any trigger into this any behavior into this and any you know reason for doing said behavior"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:38,520",
+				"to": "00:04:48,240"
+			},
+			"offsets": {
+				"from": 278520,
+				"to": 288240
+			},
+			"text": " can also be inserted into this what I'm talking about more is the framework or the larger"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:48,240",
+				"to": "00:04:59,280"
+			},
+			"offsets": {
+				"from": 288240,
+				"to": 299280
+			},
+			"text": " architecture of the system at play for people so when you're caught in these loops the this"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:59,280",
+				"to": "00:05:09,080"
+			},
+			"offsets": {
+				"from": 299280,
+				"to": 309080
+			},
+			"text": " is the kind of high level system you're caught inside of and depending on what your scenario"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:09,080",
+				"to": "00:05:17,760"
+			},
+			"offsets": {
+				"from": 309080,
+				"to": 317760
+			},
+			"text": " is you know no one has the same system just like no one has the same biology story genetic"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:17,760",
+				"to": "00:05:30,640"
+			},
+			"offsets": {
+				"from": 317760,
+				"to": 330640
+			},
+			"text": " DNA mapping is identical I don't even know if identical twins have identical strips of"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:30,640",
+				"to": "00:05:39,360"
+			},
+			"offsets": {
+				"from": 330640,
+				"to": 339360
+			},
+			"text": " DNA of course that's my brain wanting to go off and do another research project and we're"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:39,360",
+				"to": "00:05:53,440"
+			},
+			"offsets": {
+				"from": 339360,
+				"to": 353440
+			},
+			"text": " not going there so continuing on with the behavior so yeah this behavior hit me you"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:53,440",
+				"to": "00:06:00,920"
+			},
+			"offsets": {
+				"from": 353440,
+				"to": 360920
+			},
+			"text": " know reflex instantly very much like I was in the doctor's office and had my knee got"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:00,920",
+				"to": "00:06:07,920"
+			},
+			"offsets": {
+				"from": 360920,
+				"to": 367920
+			},
+			"text": " tapped and I not a goddamn thing I could do to stop it it just kicks out it goes there"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:07,920",
+				"to": "00:06:20,400"
+			},
+			"offsets": {
+				"from": 367920,
+				"to": 380400
+			},
+			"text": " goes the response the a typical annoying response and I you know I get I go a typical annoying"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:20,400",
+				"to": "00:06:27,560"
+			},
+			"offsets": {
+				"from": 380400,
+				"to": 387560
+			},
+			"text": " I'm labeling it of course and the labeling is because of my displeasure with it because"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:27,560",
+				"to": "00:06:36,440"
+			},
+			"offsets": {
+				"from": 387560,
+				"to": 396440
+			},
+			"text": " I just don't like it it's behavior that is detrimental to my well-being and detrimental"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:36,440",
+				"to": "00:06:48,160"
+			},
+			"offsets": {
+				"from": 396440,
+				"to": 408160
+			},
+			"text": " to my nervous system which is very important to me since it's been pretty fried from when"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:48,160",
+				"to": "00:07:08,200"
+			},
+			"offsets": {
+				"from": 408160,
+				"to": 428200
+			},
+			"text": " I was young yeah so the I'm finding that reflecting on it I'm more annoyed that a I did it or"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:08,200",
+				"to": "00:07:30,640"
+			},
+			"offsets": {
+				"from": 428200,
+				"to": 450640
+			},
+			"text": " slash it happened and be I'm curiously a bit upset with my inability to have a high enough"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:30,640",
+				"to": "00:07:37,360"
+			},
+			"offsets": {
+				"from": 450640,
+				"to": 457360
+			},
+			"text": " level of awareness the proper level of awareness basically what I'm getting at is I didn't"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:37,360",
+				"to": "00:07:49,040"
+			},
+			"offsets": {
+				"from": 457360,
+				"to": 469040
+			},
+			"text": " have the right antenna set up to pick up on it to see it before it hits and that's basically"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:49,040",
+				"to": "00:08:00,040"
+			},
+			"offsets": {
+				"from": 469040,
+				"to": 480040
+			},
+			"text": " what played out and when that played out I got stuck in that pattern for two hours of"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:00,040",
+				"to": "00:08:11,340"
+			},
+			"offsets": {
+				"from": 480040,
+				"to": 491340
+			},
+			"text": " continuing to tell myself the story and to the point where I was unwilling actually there"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:11,340",
+				"to": "00:08:19,280"
+			},
+			"offsets": {
+				"from": 491340,
+				"to": 499280
+			},
+			"text": " was a part of my being that was consciously unwilling to move that next step forward which"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:19,280",
+				"to": "00:08:29,680"
+			},
+			"offsets": {
+				"from": 499280,
+				"to": 509680
+			},
+			"text": " I found quite interesting I think it was the fear part of me that typically gets to drive"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:29,680",
+				"to": "00:08:43,480"
+			},
+			"offsets": {
+				"from": 509680,
+				"to": 523480
+			},
+			"text": " the bus but no I consciously took the next step and it turned out that once I took the"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:43,480",
+				"to": "00:09:00,720"
+			},
+			"offsets": {
+				"from": 523480,
+				"to": 540720
+			},
+			"text": " next two steps everything that I had dreamt up in those two hours was make believe and"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:00,720",
+				"to": "00:09:21,440"
+			},
+			"offsets": {
+				"from": 540720,
+				"to": 561440
+			},
+			"text": " produced headache heartache high blood pressure unhappiness to no one but myself I share this"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:21,440",
+				"to": "00:09:33,280"
+			},
+			"offsets": {
+				"from": 561440,
+				"to": 573280
+			},
+			"text": " because I know the person listening to this has had this experience once at least once"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:33,280",
+				"to": "00:09:46,240"
+			},
+			"offsets": {
+				"from": 573280,
+				"to": 586240
+			},
+			"text": " maybe not intent very intense but they're spent it's been there where you have the reflection"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:46,240",
+				"to": "00:09:58,760"
+			},
+			"offsets": {
+				"from": 586240,
+				"to": 598760
+			},
+			"text": " and you go damn anyway my mind is getting a bit ahead of my mouth here and as my mind"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:58,760",
+				"to": "00:10:10,480"
+			},
+			"offsets": {
+				"from": 598760,
+				"to": 610480
+			},
+			"text": " is want to do it wants to go open every door see what's behind every single thing this"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:10,480",
+				"to": "00:10:17,480"
+			},
+			"offsets": {
+				"from": 610480,
+				"to": 617480
+			},
+			"text": " is interesting it's a blue something out here in the middle of the woods it's a t-shirt"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:17,480",
+				"to": "00:10:26,200"
+			},
+			"offsets": {
+				"from": 617480,
+				"to": 626200
+			},
+			"text": " I'm just going to leave that where it is you can see it from the trail and it does not"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:26,200",
+				"to": "00:10:34,600"
+			},
+			"offsets": {
+				"from": 626200,
+				"to": 634600
+			},
+			"text": " look like anything around it stands right out so it's five feet from the fire road and"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:34,600",
+				"to": "00:10:48,920"
+			},
+			"offsets": {
+				"from": 634600,
+				"to": 648920
+			},
+			"text": " they drive this off"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:48,920",
+				"to": "00:10:57,960"
+			},
+			"offsets": {
+				"from": 648920,
+				"to": 657960
+			},
+			"text": " working very hard on yourself being told you're making progress looking at data that's been"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:57,960",
+				"to": "00:11:05,840"
+			},
+			"offsets": {
+				"from": 657960,
+				"to": 665840
+			},
+			"text": " recorded objectively about you and you're no part of that data collection and that data"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:05,840",
+				"to": "00:11:19,080"
+			},
+			"offsets": {
+				"from": 665840,
+				"to": 679080
+			},
+			"text": " says you're getting better you can feel that you're getting better and all of those things"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:19,080",
+				"to": "00:11:36,800"
+			},
+			"offsets": {
+				"from": 679080,
+				"to": 696800
+			},
+			"text": " coming together in alignment creates a energy of its own kind it's a momentum and I've been"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:36,800",
+				"to": "00:11:49,060"
+			},
+			"offsets": {
+				"from": 696800,
+				"to": 709060
+			},
+			"text": " riding that momentum for the better part of almost a week now tomorrow will be well actually"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:49,060",
+				"to": "00:11:56,720"
+			},
+			"offsets": {
+				"from": 709060,
+				"to": 716720
+			},
+			"text": " today is day seven of the first week of May it is the sixth but technically it's the seventh"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:56,720",
+				"to": "00:12:10,400"
+			},
+			"offsets": {
+				"from": 716720,
+				"to": 730400
+			},
+			"text": " day I believe is it no tomorrow is tomorrow's the one week anniversary of my 57th birthday"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:10,400",
+				"to": "00:12:19,360"
+			},
+			"offsets": {
+				"from": 730400,
+				"to": 739360
+			},
+			"text": " and this past week has been pretty tumultuous in terms of what's been going on inside my"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:19,360",
+				"to": "00:12:27,320"
+			},
+			"offsets": {
+				"from": 739360,
+				"to": 747320
+			},
+			"text": " head it's almost like I need to produce a weather report from my head today it's looking"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:27,320",
+				"to": "00:12:34,000"
+			},
+			"offsets": {
+				"from": 747320,
+				"to": 754000
+			},
+			"text": " pretty stormy there Bert we're going to have some showers coming in from the east we expect"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:34,000",
+				"to": "00:12:39,520"
+			},
+			"offsets": {
+				"from": 754000,
+				"to": 759520
+			},
+			"text": " those to hang out for maybe an hour or two and it should be partly cloudy the rest of"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:39,520",
+				"to": "00:12:49,040"
+			},
+			"offsets": {
+				"from": 759520,
+				"to": 769040
+			},
+			"text": " the day until we get a little sleepy for the evening and out you go the brain weather report"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:49,040",
+				"to": "00:13:06,520"
+			},
+			"offsets": {
+				"from": 769040,
+				"to": 786520
+			},
+			"text": " brought to you daily there you go come up with an AI that does that for you so the feeling"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:06,520",
+				"to": "00:13:21,920"
+			},
+			"offsets": {
+				"from": 786520,
+				"to": 801920
+			},
+			"text": " better thing and the momentum thing are important because they're very real I felt it like an"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:21,920",
+				"to": "00:13:32,080"
+			},
+			"offsets": {
+				"from": 801920,
+				"to": 812080
+			},
+			"text": " energy sitting on top of my skin it was an excitement that's how it was it was a tangible"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:32,080",
+				"to": "00:13:42,480"
+			},
+			"offsets": {
+				"from": 812080,
+				"to": 822480
+			},
+			"text": " excitement on the surface of my skin an example would be goose bumps or some people call it"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:42,480",
+				"to": "00:13:53,200"
+			},
+			"offsets": {
+				"from": 822480,
+				"to": 833200
+			},
+			"text": " chicken skin you know the bald chicken skin that's got the little bumps on it and you"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:53,200",
+				"to": "00:14:01,100"
+			},
+			"offsets": {
+				"from": 833200,
+				"to": 841100
+			},
+			"text": " might get spooked out watching a horror movie and get the chicken skin or the goose bumps"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:01,100",
+				"to": "00:14:08,160"
+			},
+			"offsets": {
+				"from": 841100,
+				"to": 848160
+			},
+			"text": " it's akin to that because you get goose bumps but you also get this feeling and it's char"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:08,160",
+				"to": "00:14:18,200"
+			},
+			"offsets": {
+				"from": 848160,
+				"to": 858200
+			},
+			"text": " it's charged that feeling you feel that I felt it when this kicked in it was like turning"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:18,200",
+				"to": "00:14:29,000"
+			},
+			"offsets": {
+				"from": 858200,
+				"to": 869000
+			},
+			"text": " on an old fucking furnace and it felt good quite honestly and I burned a midnight oil"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:29,000",
+				"to": "00:14:36,440"
+			},
+			"offsets": {
+				"from": 869000,
+				"to": 876440
+			},
+			"text": " bit too much for like four days in a row and did too much work kind of burned myself out"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:36,440",
+				"to": "00:15:04,480"
+			},
+			"offsets": {
+				"from": 876440,
+				"to": 904480
+			},
+			"text": " a bit you are right there hi I'm all right how about you so the energy on the skin"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:04,480",
+				"to": "00:15:21,360"
+			},
+			"offsets": {
+				"from": 904480,
+				"to": 921360
+			},
+			"text": " was amazing and like any rush or acceleration or excitement brought brought on you want"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:21,360",
+				"to": "00:15:31,920"
+			},
+			"offsets": {
+				"from": 921360,
+				"to": 931920
+			},
+			"text": " it to continue it's like it becomes an it became an addiction I wanted to feel good"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:31,920",
+				"to": "00:15:42,760"
+			},
+			"offsets": {
+				"from": 931920,
+				"to": 942760
+			},
+			"text": " like that and keep working on things and just get up and work on my fun shit that I believe"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:42,760",
+				"to": "00:15:50,640"
+			},
+			"offsets": {
+				"from": 942760,
+				"to": 950640
+			},
+			"text": " has value stuff like recording these things you know I've been wanting to do this kind"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:50,640",
+				"to": "00:16:07,140"
+			},
+			"offsets": {
+				"from": 950640,
+				"to": 967140
+			},
+			"text": " of recording for decades and you know it finally got to the point where I thought to myself"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:07,140",
+				"to": "00:16:15,840"
+			},
+			"offsets": {
+				"from": 967140,
+				"to": 975840
+			},
+			"text": " what day is the best day to plant a tree today you know it would have been great two decades"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:15,840",
+				"to": "00:16:25,400"
+			},
+			"offsets": {
+				"from": 975840,
+				"to": 985400
+			},
+			"text": " ago if I had planted the tree and started doing this my archive of material would be"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:25,400",
+				"to": "00:16:37,720"
+			},
+			"offsets": {
+				"from": 985400,
+				"to": 997720
+			},
+			"text": " monstrous and the ability to cross reference concepts phrases all that good shit be pretty"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:37,720",
+				"to": "00:16:47,400"
+			},
+			"offsets": {
+				"from": 997720,
+				"to": 1007400
+			},
+			"text": " cool gotta say so somebody who does have a content archive of recordings like this it"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:47,400",
+				"to": "00:16:56,440"
+			},
+			"offsets": {
+				"from": 1007400,
+				"to": 1016440
+			},
+			"text": " would be a lot of fun to throw an agent on it and ask it obviously to do at a base level"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:56,440",
+				"to": "00:17:09,120"
+			},
+			"offsets": {
+				"from": 1016440,
+				"to": 1029120
+			},
+			"text": " organize catalog tag etc so that visually it's just easier to sort things out but then"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:09,120",
+				"to": "00:17:24,600"
+			},
+			"offsets": {
+				"from": 1029120,
+				"to": 1044600
+			},
+			"text": " it can go a layer deeper which is categorize and taxonomy by content and by context perhaps"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:24,600",
+				"to": "00:17:42,400"
+			},
+			"offsets": {
+				"from": 1044600,
+				"to": 1062400
+			},
+			"text": " or something else who knows thinking about the rest of today and I actually back it up"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:42,400",
+				"to": "00:17:52,680"
+			},
+			"offsets": {
+				"from": 1062400,
+				"to": 1072680
+			},
+			"text": " so this morning after those two hours and sitting there with the realization that you"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:52,680",
+				"to": "00:17:59,800"
+			},
+			"offsets": {
+				"from": 1072680,
+				"to": 1079800
+			},
+			"text": " just did all of this to yourself does bring about"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:22,680",
+				"to": "00:18:52,600"
+			},
+			"offsets": {
+				"from": 1102680,
+				"to": 1132600
+			},
+			"text": ", so yeah, after those two hours of spent energy."
+		},
+		{
+			"timestamps": {
+				"from": "00:18:52,600",
+				"to": "00:19:01,560"
+			},
+			"offsets": {
+				"from": 1132600,
+				"to": 1141560
+			},
+			"text": " It feels as though you've lived an entire day energetically psychologically you feel"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:01,560",
+				"to": "00:19:09,800"
+			},
+			"offsets": {
+				"from": 1141560,
+				"to": 1149800
+			},
+			"text": " not like I've lived a day but I've lived 24 hours completely in two hours."
+		},
+		{
+			"timestamps": {
+				"from": "00:19:09,800",
+				"to": "00:19:22,880"
+			},
+			"offsets": {
+				"from": 1149800,
+				"to": 1162880
+			},
+			"text": " It's that exhausting going through that kind of shit at this time in my life because it's"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:22,880",
+				"to": "00:19:33,240"
+			},
+			"offsets": {
+				"from": 1162880,
+				"to": 1173240
+			},
+			"text": " a triple whammy it's getting triggered and pulled in that's just annoying at a base level"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:33,240",
+				"to": "00:19:45,640"
+			},
+			"offsets": {
+				"from": 1173240,
+				"to": 1185640
+			},
+			"text": " number two is me you know basically fueling the fire and keeping it persistent and then"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:45,640",
+				"to": "00:19:55,080"
+			},
+			"offsets": {
+				"from": 1185640,
+				"to": 1195080
+			},
+			"text": " there's waking up to it and then being upset with yourself once again like you're upset"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:55,080",
+				"to": "00:20:02,080"
+			},
+			"offsets": {
+				"from": 1195080,
+				"to": 1202080
+			},
+			"text": " with yourself because you were just beating yourself up just think about that for a minute"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:02,080",
+				"to": "00:20:13,160"
+			},
+			"offsets": {
+				"from": 1202080,
+				"to": 1213160
+			},
+			"text": " you get upset with yourself because you just caught yourself beating yourself up you're"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:13,160",
+				"to": "00:20:20,880"
+			},
+			"offsets": {
+				"from": 1213160,
+				"to": 1220880
+			},
+			"text": " the only person involved in this situation and no one is winning how the hell can that"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:20,880",
+				"to": "00:20:38,040"
+			},
+			"offsets": {
+				"from": 1220880,
+				"to": 1238040
+			},
+			"text": " be that doesn't pass the Spock test no way I don't think it ever will captain well we"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:38,040",
+				"to": "00:20:53,960"
+			},
+			"offsets": {
+				"from": 1238040,
+				"to": 1253960
+			},
+			"text": " just figured out something new on this star date there are no winners in triggers that"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:53,960",
+				"to": "00:21:15,600"
+			},
+			"offsets": {
+				"from": 1253960,
+				"to": 1275600
+			},
+			"text": " create automatic patterned behavior responses that adversely affect your emotional psychological"
+		},
+		{
+			"timestamps": {
+				"from": "00:21:15,600",
+				"to": "00:21:33,720"
+			},
+			"offsets": {
+				"from": 1275600,
+				"to": 1293720
+			},
+			"text": " being and your nervous system because if you fucked around with someone else's nervous"
+		},
+		{
+			"timestamps": {
+				"from": "00:21:33,720",
+				"to": "00:21:44,280"
+			},
+			"offsets": {
+				"from": 1293720,
+				"to": 1304280
+			},
+			"text": " system the way that you do it to yourself legally that might be pure on harassment like"
+		},
+		{
+			"timestamps": {
+				"from": "00:21:44,280",
+				"to": "00:21:56,600"
+			},
+			"offsets": {
+				"from": 1304280,
+				"to": 1316600
+			},
+			"text": " not just harassment emotional and psychological torture what the hell that is putting someone"
+		},
+		{
+			"timestamps": {
+				"from": "00:21:56,600",
+				"to": "00:22:08,040"
+			},
+			"offsets": {
+				"from": 1316600,
+				"to": 1328040
+			},
+			"text": " psychologically through the wringer I just walked up onto a bald eagle that was interestingly"
+		},
+		{
+			"timestamps": {
+				"from": "00:22:08,040",
+				"to": "00:22:18,160"
+			},
+			"offsets": {
+				"from": 1328040,
+				"to": 1338160
+			},
+			"text": " on the ground maybe eating something got about 20 feet away and it took off it had big wings"
+		},
+		{
+			"timestamps": {
+				"from": "00:22:38,040",
+				"to": "00:23:01,000"
+			},
+			"offsets": {
+				"from": 1358040,
+				"to": 1381000
+			},
+			"text": " so it's a good thing that you're not on the ground it's a good thing that you're not"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:01,000",
+				"to": "00:23:23,800"
+			},
+			"offsets": {
+				"from": 1381000,
+				"to": 1403800
+			},
+			"text": " on the ground incredible what two weeks will do and turn an entire forest that is asleep"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:23,800",
+				"to": "00:23:34,240"
+			},
+			"offsets": {
+				"from": 1403800,
+				"to": 1414240
+			},
+			"text": " from its winter slumber gets turned right on and there goes the bird right back bird"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:34,240",
+				"to": "00:23:45,220"
+			},
+			"offsets": {
+				"from": 1414240,
+				"to": 1425220
+			},
+			"text": " thinks a damn teenage eagle just landed on the path and walked back across I'm a good"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:45,220",
+				"to": "00:23:59,720"
+			},
+			"offsets": {
+				"from": 1425220,
+				"to": 1439720
+			},
+			"text": " 70 80 yards away so it feels a lot safer I think I'm gonna end it there and enjoy this"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:59,720",
+				"to": "00:24:15,720"
+			},
+			"offsets": {
+				"from": 1439720,
+				"to": 1455720
+			},
+			"text": " view maybe put this picture on this post who knows"
+		}
+	]
+}
